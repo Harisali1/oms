@@ -130,6 +130,7 @@ Route::group(['middleware' => 'backendAuthenticate'], function () { //admin midd
         Route::get('return-orders', 'ReturnOrdersController@index')->name('return-orders-get');
         Route::get('detail-return-orders', 'ReturnOrdersController@Details')->name('detail-return-orders');
 
+        Route::get('ocr-order-creation', 'OrderController@create')->name('ocr-order-create');
 
     });
 });

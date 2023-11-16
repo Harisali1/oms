@@ -67,6 +67,7 @@
                         @if(can_access_route(['Grocery-Dispatch'],$userPermissoins))
                             <li><a href="{{route('Grocery-Dispatch')}}">Orders</a></li>
                         @endif
+                        <li><a href="{{route('ocr-order-create')}}">Order Creation</a></li>
                         <li><a href="{{url('logout')}}" class="align-items-center">Logout</a></li>
                     </ul>
                 </nav>
