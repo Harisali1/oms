@@ -1,0 +1,31 @@
+// @import '../variables';
+
+$footer_h: 88px;
+.page-login{background: $white;
+    .row_1{min-height: 100vh; position: relative;}
+    .left-column{ background: url(../images/login-main-bg.jpg) no-repeat center center; background-size: cover;
+        height: 100% !important;
+        @include position(absolute, 0 null null 0);
+    }
+    .right-column{
+        .inner{background: url(../images/icons-bg.png) no-repeat $white top center; background-size: 100% auto; padding: 180px 0 0;}
+    }
+
+    #login-form{
+        .btn{min-width: 200px;}
+        
+        .forgot-pwd{margin: 30px 0;}
+    }
+
+    .extra-info{margin: 30px 0;}
+
+    // Footer - [Start]
+    #footer{border-top: solid 1px $bc1-lighter; min-height: $footer_h; margin-top: -$footer_h;
+        ul {
+            li{
+                a{padding: 2px 10px; display: block;}
+                &:not(:last-child) a{border-right: solid 1px $bc1-lighter;}
+            }
+        }
+    }
+}

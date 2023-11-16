@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+/*===================================================================
+[Master Stylesheet]
+===================================================================
+Project:        Joey
+Version:        1.0
+Author:         M.Owais
+URL:            https://joey.joeyco
+Primary use:    joey.joeyco.com
+Started date:	04/14/2021 (MM/DD/YYYY)
+*/
+
+// Import global usage libraries - [Start]
+@import 'libs/bootstrap.min.scss';
+@import 'libs/bootstrap-datepicker.min.scss';
+@import '_variables.scss';
+@import 'select2.min'; 
+@import 'libs';
+@import 'libs/icofont.scss';
+@import 'common';
+@import 'client-common'; 
+// @import 'dropzone';
+// Import global usage libraries - [/end]
+
+// Pages
+@import 
+    './pages/backend-common', 
+    './pages/page-login',  
+    './pages/page-dispatch', 
+    './pages/page-dashboard', 
+    './responsive';

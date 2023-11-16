@@ -1,0 +1,77 @@
+/*
+Error: Undefined variable: "$bc1-lightest".
+        on line 4 of /Applications/MAMP/htdocs/joeyportal/public/assets/front/assets/sass/pages/page-summary.scss
+
+1: // @import '../variables';
+2: 
+3: .page-summary{
+4: 	.summary-hightlights{background: $bc1-lightest; padding: 12px 0 !important;
+5: 		.label{font-size: $bfsize-xs;  line-height: 1.4em;}
+6: 		.value{color: $basecolor1; font-weight: $bold; font-size: $bfsize+4;}
+7: 		.small-value{font-size: $bfsize-mb; line-height: 1.2em; color: $bc1-light;}
+8: 	}
+9: 
+
+Backtrace:
+/Applications/MAMP/htdocs/joeyportal/public/assets/front/assets/sass/pages/page-summary.scss:4
+/private/var/folders/sg/d9r35jk17f53mgq2m8ztm3qw0000gn/T/AppTranslocation/483D17DD-906A-4854-B056-C8128FE5F400/d/compass.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/script/tree/variable.rb:49:in `_perform'
+/private/var/folders/sg/d9r35jk17f53mgq2m8ztm3qw0000gn/T/AppTranslocation/483D17DD-906A-4854-B056-C8128FE5F400/d/compass.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/script/tree/node.rb:50:in `perform'
+/private/var/folders/sg/d9r35jk17f53mgq2m8ztm3qw0000gn/T/AppTranslocation/483D17DD-906A-4854-B056-C8128FE5F400/d/compass.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/perform.rb:394:in `visit_prop'
+/private/var/folders/sg/d9r35jk17f53mgq2m8ztm3qw0000gn/T/AppTranslocation/483D17DD-906A-4854-B056-C8128FE5F400/d/compass.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/base.rb:36:in `visit'
+/private/var/folders/sg/d9r35jk17f53mgq2m8ztm3qw0000gn/T/AppTranslocation/483D17DD-906A-4854-B056-C8128FE5F400/d/compass.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/private/var/folders/sg/d9r35jk17f53mgq2m8ztm3qw0000gn/T/AppTranslocation/483D17DD-906A-4854-B056-C8128FE5F400/d/compass.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/stack.rb:79:in `with_base'
+/private/var/folders/sg/d9r35jk17f53mgq2m8ztm3qw0000gn/T/AppTranslocation/483D17DD-906A-4854-B056-C8128FE5F400/d/compass.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/stack.rb:115:in `with_frame'
+/private/var/folders/sg/d9r35jk17f53mgq2m8ztm3qw0000gn/T/AppTranslocation/483D17DD-906A-4854-B056-C8128FE5F400/d/compass.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/stack.rb:79:in `with_base'
+/private/var/folders/sg/d9r35jk17f53mgq2m8ztm3qw0000gn/T/AppTranslocation/483D17DD-906A-4854-B056-C8128FE5F400/d/compass.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/private/var/folders/sg/d9r35jk17f53mgq2m8ztm3qw0000gn/T/AppTranslocation/483D17DD-906A-4854-B056-C8128FE5F400/d/compass.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/perform.rb:430:in `visit_rule'
+org/jruby/RubyArray.java:2412:in `map'
+/private/var/folders/sg/d9r35jk17f53mgq2m8ztm3qw0000gn/T/AppTranslocation/483D17DD-906A-4854-B056-C8128FE5F400/d/compass.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/perform.rb:430:in `visit_rule'
+/private/var/folders/sg/d9r35jk17f53mgq2m8ztm3qw0000gn/T/AppTranslocation/483D17DD-906A-4854-B056-C8128FE5F400/d/compass.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/private/var/folders/sg/d9r35jk17f53mgq2m8ztm3qw0000gn/T/AppTranslocation/483D17DD-906A-4854-B056-C8128FE5F400/d/compass.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/perform.rb:428:in `visit_rule'
+/private/var/folders/sg/d9r35jk17f53mgq2m8ztm3qw0000gn/T/AppTranslocation/483D17DD-906A-4854-B056-C8128FE5F400/d/compass.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/base.rb:36:in `visit'
+/private/var/folders/sg/d9r35jk17f53mgq2m8ztm3qw0000gn/T/AppTranslocation/483D17DD-906A-4854-B056-C8128FE5F400/d/compass.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/private/var/folders/sg/d9r35jk17f53mgq2m8ztm3qw0000gn/T/AppTranslocation/483D17DD-906A-4854-B056-C8128FE5F400/d/compass.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/stack.rb:79:in `with_base'
+/private/var/folders/sg/d9r35jk17f53mgq2m8ztm3qw0000gn/T/AppTranslocation/483D17DD-906A-4854-B056-C8128FE5F400/d/compass.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/stack.rb:115:in `with_frame'
+/private/var/folders/sg/d9r35jk17f53mgq2m8ztm3qw0000gn/T/AppTranslocation/483D17DD-906A-4854-B056-C8128FE5F400/d/compass.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/stack.rb:79:in `with_base'
+/private/var/folders/sg/d9r35jk17f53mgq2m8ztm3qw0000gn/T/AppTranslocation/483D17DD-906A-4854-B056-C8128FE5F400/d/compass.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/private/var/folders/sg/d9r35jk17f53mgq2m8ztm3qw0000gn/T/AppTranslocation/483D17DD-906A-4854-B056-C8128FE5F400/d/compass.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/perform.rb:430:in `visit_rule'
+org/jruby/RubyArray.java:2412:in `map'
+/private/var/folders/sg/d9r35jk17f53mgq2m8ztm3qw0000gn/T/AppTranslocation/483D17DD-906A-4854-B056-C8128FE5F400/d/compass.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/perform.rb:430:in `visit_rule'
+/private/var/folders/sg/d9r35jk17f53mgq2m8ztm3qw0000gn/T/AppTranslocation/483D17DD-906A-4854-B056-C8128FE5F400/d/compass.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/private/var/folders/sg/d9r35jk17f53mgq2m8ztm3qw0000gn/T/AppTranslocation/483D17DD-906A-4854-B056-C8128FE5F400/d/compass.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/perform.rb:428:in `visit_rule'
+/private/var/folders/sg/d9r35jk17f53mgq2m8ztm3qw0000gn/T/AppTranslocation/483D17DD-906A-4854-B056-C8128FE5F400/d/compass.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/base.rb:36:in `visit'
+/private/var/folders/sg/d9r35jk17f53mgq2m8ztm3qw0000gn/T/AppTranslocation/483D17DD-906A-4854-B056-C8128FE5F400/d/compass.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/private/var/folders/sg/d9r35jk17f53mgq2m8ztm3qw0000gn/T/AppTranslocation/483D17DD-906A-4854-B056-C8128FE5F400/d/compass.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/stack.rb:79:in `with_base'
+/private/var/folders/sg/d9r35jk17f53mgq2m8ztm3qw0000gn/T/AppTranslocation/483D17DD-906A-4854-B056-C8128FE5F400/d/compass.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/stack.rb:115:in `with_frame'
+/private/var/folders/sg/d9r35jk17f53mgq2m8ztm3qw0000gn/T/AppTranslocation/483D17DD-906A-4854-B056-C8128FE5F400/d/compass.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/stack.rb:79:in `with_base'
+/private/var/folders/sg/d9r35jk17f53mgq2m8ztm3qw0000gn/T/AppTranslocation/483D17DD-906A-4854-B056-C8128FE5F400/d/compass.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/private/var/folders/sg/d9r35jk17f53mgq2m8ztm3qw0000gn/T/AppTranslocation/483D17DD-906A-4854-B056-C8128FE5F400/d/compass.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+org/jruby/RubyArray.java:2412:in `map'
+/private/var/folders/sg/d9r35jk17f53mgq2m8ztm3qw0000gn/T/AppTranslocation/483D17DD-906A-4854-B056-C8128FE5F400/d/compass.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/private/var/folders/sg/d9r35jk17f53mgq2m8ztm3qw0000gn/T/AppTranslocation/483D17DD-906A-4854-B056-C8128FE5F400/d/compass.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/perform.rb:167:in `visit_children'
+/private/var/folders/sg/d9r35jk17f53mgq2m8ztm3qw0000gn/T/AppTranslocation/483D17DD-906A-4854-B056-C8128FE5F400/d/compass.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/private/var/folders/sg/d9r35jk17f53mgq2m8ztm3qw0000gn/T/AppTranslocation/483D17DD-906A-4854-B056-C8128FE5F400/d/compass.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/private/var/folders/sg/d9r35jk17f53mgq2m8ztm3qw0000gn/T/AppTranslocation/483D17DD-906A-4854-B056-C8128FE5F400/d/compass.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/base.rb:36:in `visit'
+/private/var/folders/sg/d9r35jk17f53mgq2m8ztm3qw0000gn/T/AppTranslocation/483D17DD-906A-4854-B056-C8128FE5F400/d/compass.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/private/var/folders/sg/d9r35jk17f53mgq2m8ztm3qw0000gn/T/AppTranslocation/483D17DD-906A-4854-B056-C8128FE5F400/d/compass.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/base.rb:36:in `visit'
+/private/var/folders/sg/d9r35jk17f53mgq2m8ztm3qw0000gn/T/AppTranslocation/483D17DD-906A-4854-B056-C8128FE5F400/d/compass.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/perform.rb:157:in `visit'
+/private/var/folders/sg/d9r35jk17f53mgq2m8ztm3qw0000gn/T/AppTranslocation/483D17DD-906A-4854-B056-C8128FE5F400/d/compass.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/private/var/folders/sg/d9r35jk17f53mgq2m8ztm3qw0000gn/T/AppTranslocation/483D17DD-906A-4854-B056-C8128FE5F400/d/compass.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/root_node.rb:36:in `css_tree'
+/private/var/folders/sg/d9r35jk17f53mgq2m8ztm3qw0000gn/T/AppTranslocation/483D17DD-906A-4854-B056-C8128FE5F400/d/compass.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/root_node.rb:20:in `render'
+/private/var/folders/sg/d9r35jk17f53mgq2m8ztm3qw0000gn/T/AppTranslocation/483D17DD-906A-4854-B056-C8128FE5F400/d/compass.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/engine.rb:268:in `render'
+/private/var/folders/sg/d9r35jk17f53mgq2m8ztm3qw0000gn/T/AppTranslocation/483D17DD-906A-4854-B056-C8128FE5F400/d/compass.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+org/jruby/RubyMethod.java:128:in `call'
+file:/private/var/folders/sg/d9r35jk17f53mgq2m8ztm3qw0000gn/T/AppTranslocation/483D17DD-906A-4854-B056-C8128FE5F400/d/compass.app/Contents/Java/compass-app.jar!/hook/compass_patch.rb:108:in `update_stylesheet'
+/private/var/folders/sg/d9r35jk17f53mgq2m8ztm3qw0000gn/T/AppTranslocation/483D17DD-906A-4854-B056-C8128FE5F400/d/compass.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/plugin/compiler.rb:215:in `update_stylesheets'
+org/jruby/RubyArray.java:1613:in `each'
+/private/var/folders/sg/d9r35jk17f53mgq2m8ztm3qw0000gn/T/AppTranslocation/483D17DD-906A-4854-B056-C8128FE5F400/d/compass.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/private/var/folders/sg/d9r35jk17f53mgq2m8ztm3qw0000gn/T/AppTranslocation/483D17DD-906A-4854-B056-C8128FE5F400/d/compass.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/plugin/compiler.rb:293:in `watch'
+/private/var/folders/sg/d9r35jk17f53mgq2m8ztm3qw0000gn/T/AppTranslocation/483D17DD-906A-4854-B056-C8128FE5F400/d/compass.app/Contents/Resources/lib/ruby/compass_1.0/compass-1.0.3/lib/compass/sass_compiler.rb:46:in `watch!'
+/private/var/folders/sg/d9r35jk17f53mgq2m8ztm3qw0000gn/T/AppTranslocation/483D17DD-906A-4854-B056-C8128FE5F400/d/compass.app/Contents/Resources/lib/ruby/compass_1.0/compass-1.0.3/lib/compass/commands/watch_project.rb:41:in `perform'
+file:/private/var/folders/sg/d9r35jk17f53mgq2m8ztm3qw0000gn/T/AppTranslocation/483D17DD-906A-4854-B056-C8128FE5F400/d/compass.app/Contents/Java/compass-app.jar!/app_watcher.rb:12:in `watch!'
+file:/private/var/folders/sg/d9r35jk17f53mgq2m8ztm3qw0000gn/T/AppTranslocation/483D17DD-906A-4854-B056-C8128FE5F400/d/compass.app/Contents/Java/compass-app.jar!/ui/tray.rb:447:in `watch'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$bc1-lightest\".\A         on line 4 of /Applications/MAMP/htdocs/joeyportal/public/assets/front/assets/sass/pages/page-summary.scss\A \A 1: // @import '../variables';\A 2: \A 3: .page-summary{\A 4: 	.summary-hightlights{background: $bc1-lightest; padding: 12px 0 !important;\A 5: 		.label{font-size: $bfsize-xs;  line-height: 1.4em;}\A 6: 		.value{color: $basecolor1; font-weight: $bold; font-size: $bfsize+4;}\A 7: 		.small-value{font-size: $bfsize-mb; line-height: 1.2em; color: $bc1-light;}\A 8: 	}\A 9: "; }

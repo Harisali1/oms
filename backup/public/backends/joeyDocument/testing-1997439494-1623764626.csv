@@ -1,0 +1,2480 @@
+id,title,description,preconditions,postconditions,priority,severity,type,behavior,automation,status,steps_actions,steps_result,steps_data,milestone_id,milestone,suite_id,suite
+148,"To verify all changes through the admin panel should reflects to the app.",,,,undefined,undefined,other,undefined,is-not-automated,actual,,,,,,,
+1,"To verify admin should be able to enter the valid email and password on login fields.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+","1. Admin should be login successfully.
+","1. 
+",,,1,"Login Screen"
+2,"To verify admin should be login with valid credential and land on dashboard home screen.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer portal URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search tab and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+","1. Admin should land on the customer portal dashboard screen.
+","1. 
+",,,1,"Login Screen"
+3,"To verify all spelling, capitalization, spacing button should be correct.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer portal URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+","1. Admin should be login & Verify all spelling, capitalization, spacing, buttons should be showing correctly.
+","1. 
+",,,1,"Login Screen"
+149,"To verify admin should click on submit button without entering any credentials and shows a message “Please fill out the fields“. .",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & click on submit button.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Click on the submit button.
+","1. Admin should click on submit button without entering any credentials and shows a message “Please fill out the fields“.
+","1. 
+",,,1,"Login Screen"
+150,"To verify admin click on the forgot password button, it should redirect to the forgot password screen.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & click forgot password button.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Click on the forgot password button.
+","1. Admin should click on the forgot password button, it should redirect to the forgot password screen.
+","1. 
+",,,1,"Login Screen"
+151,"To verify admin should enter the email & click to reset password button, it sent a password email.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & click forgot password button.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Click on the forgot password button.
+","1. Admin should enter the email & click to reset password button, it sent a password email.
+","1. 
+",,,1,"Login Screen"
+4,"To verify Admin should see cards of customer list and banner list on dashboard.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer portal URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+","1. Admin should see customer list and banner list cards on dashboard home screen.
+","1. 
+",,,2,"Dashboard / Home Screen"
+5,"To verify admin should see all customers which are showing on the customer list.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer portal URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the customer list card which is showing on the home screen.
+","1. A list of all customers should be showing who has been sign-up through the customer app.
+","1. 
+",,,3,"See Customer List"
+6,"To verify admin should active/inactive the customer.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer portal URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the customer list card.
+
+5. Click on the active status.
+","1. Admin should be active/inactive all customers which is given in the list.
+","1. 
+",,,3,"See Customer List"
+7,"To verify admin click on edit button, it should redirect to the customer edit info page.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the customer list card.
+
+5. Click on the edit button.
+","1. Admin should redirect to the edit page.
+","1. 
+",,,3,"See Customer List"
+22,"To verify admin should edit all customer profiles.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the customer card.
+
+5. Click on the edit button.
+","1. Admin should edit all customer profiles which is should on the customer list page.
+","1. 
+",,,3,"See Customer List"
+23,"To verify admin should edit Full name, Password, & Profile picture.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the customer list card.
+
+5. Click on the edit button.
+
+6. Click the text fields one by one.
+","1. Admin should edit the Full name, Password & Profile picture.
+","1. 
+",,,3,"See Customer List"
+24,"To verify click on the save button, it should update the customer info & redirect to the customer list page.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the customer list card.
+
+5. Click on the edit button.
+
+6. Update the info.
+
+7. Click on the Save button.
+","1. Customer info should update by clicking on the save button & redirect to the customer list page.
+","1. 
+",,,3,"See Customer List"
+25,"To verify click on the cancel button, it cannot update the customer info and redirect to the customer list page.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the customer list card.
+
+5. Click on the edit button.
+
+6. Click on the cancel button.
+","1. Customer info should not update on clicking on the cancel button & redirect to the customer list page.
+","1. 
+",,,3,"See Customer List"
+26,"To verify click on the delete button, it should delete the customer and disappear on the customer list page.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the customer list card.
+
+5. Click on the delete button.
+","1. Admin should delete all customers on the customer list page.
+","1. 
+",,,3,"See Customer List"
+27,"To verify admin should see entries per page to the selected option.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the customer list card.
+
+5. Select the option.
+","1. Admin should see the no of entries per page as per selection.
+","1. 
+",,,3,"See Customer List"
+28,"To verify admin should search the data with ID, Name, Email, Phone# in the given search field.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the customer list card.
+
+5. Enter the data in the search field.
+","1. Admin should search the data with ID, Name, Email, Phone# in the given search field.
+","1. 
+",,,3,"See Customer List"
+29,"To verify admin should change the page through pagination.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the customer list card.
+
+5. Select the page#.
+","1. Admin should change or select the page through pagination which is given at the right bottom of the page.
+","1. 
+",,,3,"See Customer List"
+11,"To verify admin click on banner list card, it should redirect to the banner page.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer portal URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the banner list card which is showing on the home screen.
+","1. Admin should redirect to the banner page.
+","1. 
+",,,4,"See Banner List"
+12,"To verify admin should see all banners which are showing on the banner list page.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer portal URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the banner list card which is showing on the home screen.
+","1. A list of banners should be showing which are create through the admin panel.
+","1. 
+",,,4,"See Banner List"
+13,"To verify admin click on edit button, it should redirect to the banner edit page.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the banner list card.
+
+5. Click on the edit button.
+","1. Admin should redirect to the edit page.
+","1. 
+",,,4,"See Banner List"
+14,"To verify admin should edit all banners.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the banner card.
+
+5. Click on the edit button.
+","1. Admin should edit all banners which are should on banners page.
+","1. 
+",,,4,"See Banner List"
+15,"To verify admin should edit Title, Sub Title, Banner Detail & Picture.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the banner list card.
+
+5. Click on the edit button.
+
+6. Click the text fields one by one.
+","1. Admin should edit the Title, Sub Title, Banner Details & Picture.
+","1. 
+",,,4,"See Banner List"
+16,"To verify click on the save button, it should update the info & redirect to the banner page.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the banner list card.
+
+5. Click on the edit button.
+
+6. Update the info.
+
+7. Click on the Save button.
+","1. Banner info should update on clicking on the save button & redirect to the banner page.
+","1. 
+",,,4,"See Banner List"
+17,"To verify click on the cancel button, it cannot update the info and redirect to the banner page.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the banner list card.
+
+5. Click on the edit button.
+
+6. Click on the cancel button.
+","1. Banner info should not update on clicking on the cancel button & redirect to the banner page.
+","1. 
+",,,4,"See Banner List"
+18,"To verify click on the delete button, it should delete the banner and disappear on the banner page.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the banner list card.
+
+5. Click on the delete button.
+","1. Admin should delete all banners on the banner page.
+","1. 
+",,,4,"See Banner List"
+19,"To verify admin should see entries per page to the selected option.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the banner list card.
+
+5. Select the option.
+","1. Admin should see the no of entries per page as per selection.
+","1. 
+",,,4,"See Banner List"
+20,"To verify admin should search the banner in the given search field.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the banner list card.
+
+5. Enter the data in the search field.
+","1. Admin should search the banner with banner id, title, subtitle & details.
+","1. 
+",,,4,"See Banner List"
+21,"To verify admin should change the page through pagination.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the banner list card.
+
+5. Select the page#.
+","1. Admin should change or select the page through pagination which is given at the right bottom of the page.
+","1. 
+",,,4,"See Banner List"
+30,"To verify Role list & Add role is showing to the admin on clicking on Roles.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the Roles.
+","1. Admin should see Role list & Add role options.
+","1. 
+",,,5,Roles
+31,"To verify admin click on the role list, it should redirect to the role list page.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the roles.
+
+5. Click on the roles list.
+","1. Admin should redirect to the role list page.
+","1. 
+",,,6,"Role List"
+32,"To verify admin should see all role list which can create on add role page .",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the roles.
+
+5. Click on the roles list.
+","1. A list of all roles should be showing to admin/sub-admin which has been assigned to the sub-admins.
+","1. 
+",,,6,"Role List"
+33,"To verify admin should see the permissions which is given in set privileges.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the roles.
+
+5. Click on the roles list.
+
+6. Click on the set privileges options
+","1. Admin should see all permissions which are given in privileges.
+","1. 
+",,,6,"Role List"
+34,"To verify admin should assign the permission through privileges.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the roles.
+
+5. Click on the roles list.
+
+6. Click on the set privileges options.
+","1. Admin should assign permissions to sub-admin successfully.
+","1. 
+",,,6,"Role List"
+35,"To verify click on the update button, it should update the permissions.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the roles.
+
+5. Click on the roles list.
+
+6. Click on the update button.
+","1. Admin should update the permissions which are assigned to the sub-admin.
+","1. 
+",,,6,"Role List"
+36,"To verify click on the cancel button, it cannot update the permissions and redirect to the role list page.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the roles.
+
+5. Click on the roles list.
+
+6. Click on the cancel button.
+","1. Admin click on the cancel button, it cannot update the permissions and redirect to the role list page.
+","1. 
+",,,6,"Role List"
+37,"To verify admin should see the details which is selected to the privileges.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the roles.
+
+5. Click on the roles list.
+
+6. Click on the Details button.
+","1. Admin should see all the details which are selected to the privileges & assign to the sub-admins.
+","1. 
+",,,6,"Role List"
+38,"To verify admin should edit/assign the roles which is showing on Dashboard Cards Permissions.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the roles.
+
+5. Click on the roles list.
+
+6. Click on the edit button.
+","1. Admin should edit/assign the roles which are showing on Dashboard Cards Permissions.
+","1. 
+",,,6,"Role List"
+39,"To verify admin should see entries per page as the selected option.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the role list.
+
+5. Select the option.
+","1. Admin should see the no of entries per page as per selection.
+","1. 
+",,,6,"Role List"
+40,"To verify admin should search the user in the given search field.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the role list.
+
+5. Enter the data in the search field.
+","1. Admin should search the user with Id, Name, Total users, Total dashboard card, and date.
+","1. 
+",,,6,"Role List"
+41,"To verify admin should change the page through pagination.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the role list.
+
+5. Select the page#.
+","1. Admin should change or select the page through pagination which is given at the right bottom of the page.
+","1. 
+",,,6,"Role List"
+42,"To verify admin click on add role page, it should redirect to the add role page.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the roles.
+
+5. Click on the add roles.
+","1. Admin should redirect to the add role page.
+","1. 
+",,,7,"Add Role"
+43,"To verify admin should create roles which are showing on this page.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the roles.
+
+5. Click on the add roles.
+","1. Admin should create multiple roles for sub-admins.
+","1. 
+",,,7,"Add Role"
+44,"To verify click on the save button, it should add a role on role list.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the roles.
+
+5. Click on the add roles.
+","1. Role should be added to the role list after clicking on the save button.
+","1. 
+",,,7,"Add Role"
+45,"To verify click on the cancel button, it should redirect to the role list page.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the roles.
+
+5. Click on the add roles.
+","1. Admin should redirect to the role list page by clicking on the cancel button.
+","1. 
+",,,7,"Add Role"
+46,"To verify Sub Admins List & Add Sub Admin is showing to the admin on sub-admin section.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the sub-admins.
+","1. Admin should see Sub Admins List & Add Sub Admin options.
+","1. 
+",,,8,"Sub Admins"
+47,"To verify click on sub-admin list button, admin should redirect to the sub-admins list page.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the sub-admins.
+","1. Admin should redirect to the sub-admins list page.
+","1. 
+",,,9,"Sub Admins List"
+48,"To verify admin should see all sub-admins list which is showing on the sub-admins page.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the sub-admin list.
+","1. A list of all sub-admins should be showing which has been created through the admin panel.
+","1. 
+",,,9,"Sub Admins List"
+49,"To verify admin should active/inactive the sub-admins.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the sub-admins list.
+
+5. Click on the active status.
+","1. Admin should be active/inactive for all sub-admins which is given in the list.
+","1. 
+",,,9,"Sub Admins List"
+50,"To verify admin should see the details of the sub-admins.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the sub-admins.
+
+5. Click on the sub-admins list.
+
+6. Click on the Details button.
+","1. Admin should see all the details (full name, phone, role, status, address, email, department) of the sub-admin.
+","1. 
+",,,9,"Sub Admins List"
+51,"To verify click on the back button, it should redirect to the list page.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the sub-admins.
+
+5. Click on the sub-admins list.
+
+6. Click on the Details button.
+
+7. Click on the back button.
+","1. Admin should redirect to the list page by clicking on the back button.
+","1. 
+",,,9,"Sub Admins List"
+52,"To verify click on edit button, it should redirect to the edit profile page.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the sub-admins.
+
+5. Click on the sub-admins list.
+
+6. Click on the edit button.
+","1. Admin should redirect to the edit profile page by clicking on edit button.
+","1. 
+",,,9,"Sub Admins List"
+53,"To verify admin should edit Full name, Phone#, Address, Role type, Password & Profile picture.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the sub-admins.
+
+5. Click on the sub-admins list.
+
+6. Click on the edit button.
+","1. Admin should update the Full name, Email, Phone#, Address, Role type, Department, Password, and Profile picture of the sub-admins.
+","1. 
+",,,9,"Sub Admins List"
+54,"To verify click on the save button, it should update the sub-admin profiles & redirects to the sub-admin list page.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the sub-admins.
+
+5. Click on the sub-admins list.
+
+6. Click on the edit button.
+","1. Profile should be updated by clicking on the save button & redirect to the sub-admin list page.
+","1. 
+",,,9,"Sub Admins List"
+55,"To verify click on the cancel button, it cannot update the profile and redirects to the sub-admin list page.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the sub-admins.
+
+5. Click on the sub-admins list.
+
+6. Click on the edit button.
+","1. Profile cannot update by clicking on the cancel button and it should redirect to the sub-admin list page.
+","1. 
+",,,9,"Sub Admins List"
+56,"To verify admin should delete sub-admins & disappear on the sub-admin list page.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the sub-admins.
+
+5. Click on the sub-admins list.
+
+6. Click on the delete button.
+","1. Admin should delete the sub-admins which are given in the action column & disappears on the sub-admin list page.
+","1. 
+",,,9,"Sub Admins List"
+57,"To verify admin should see entries per page as the selected option.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the sub-admins.
+
+5. Click on the sub-admins list.
+
+6. Select the option.
+","1. Admin should see the no of entries per page as per selection.
+","1. 
+",,,9,"Sub Admins List"
+58,"To verify admin should search the sub-admin in the given search field.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the sub-admins.
+
+5. Click on the sub-admins list.
+
+6. Enter the data in the search field.
+","1. Admin should search the sub-admin with Id, Name, Email, & Phone#.
+","1. 
+",,,9,"Sub Admins List"
+59,"To verify admin should change the page through pagination.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the role list.
+
+5. Select the page#.
+","1. Admin should change or select the page through pagination which is given at the right bottom of the page.
+","1. 
+",,,9,"Sub Admins List"
+60,"To verify admin click on the add sub-admin button, it should redirect to the add sub-admin page.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the sub-admins.
+
+5. Click on the add sub-admin.
+","1. Admin should redirect to the sub-admin page.
+","1. 
+",,,10,"Add Sub Admin"
+61,"To verify, admin should create sub-admins through add sub-admins option.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the sub-admins.
+
+5. Click on the add sub-admin.
+","1. Admin should create multiple sub-admins on entering the Name, Email, Phone#, Address, Role type, Department, Password, Confirm Password, and Upload picture.
+","1. 
+",,,10,"Add Sub Admin"
+62,"To verify sub-admin receive the email for reset password.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the sub-admins.
+
+5. Click on the add sub-admin.
+
+6. Create an account for sub-admin
+","1. Sub-admin receives the email to reset the password after the account created.
+","1. 
+",,,10,"Add Sub Admin"
+63,"To verify admin click to the save button, it creates the sub-admin account.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the sub-admins.
+
+5. Click on the add sub-admin.
+
+6. Click on the Save button.
+","1. Admin should create the sub-admin account by clicking the save button.
+","1. 
+",,,10,"Add Sub Admin"
+64,"To verify admin click to the cancel button, it redirects to the sub-admin list page.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the sub-admins.
+
+5. Click on the add sub-admin.
+
+6. Click on the cancel button
+","1. Admin should redirect the sub-admin list page by clicking the cancel button.
+","1. 
+",,,10,"Add Sub Admin"
+65,"To verify, Customer List is showing to the admin on customer section.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the customer.
+","1. Admin should see the Customer List option.
+","1. 
+",,,11,Customer
+66,"To verify admin click on the customer list button, it should redirect to the customer list page.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the customer.
+
+5.  Click on the customer list.
+","1. Admin should redirect to the customer list page after clicking on the customer list option.
+","1. 
+",,,12,"Customer List"
+67,"To verify admin should see all customer which are showing on the customer list.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the customer.
+
+5. Click on the customer list
+","1. A list of all customers should be showing who has been sign-up through the customer app.
+","1. 
+",,,12,"Customer List"
+68,"To verify admin should active/blocked the customer.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the customer.
+
+5. Click on the customer list.
+
+6. Click on the active status.
+","1. Admin should be active/inactive for all customers which are given in the list.
+","1. 
+",,,12,"Customer List"
+69,"To verify admin click on edit button, it should redirect to the customer edit info page.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the customer.
+
+5. Click on the customer list.
+
+6. Click on the edit button.
+","1. Admin should redirect to the edit page.
+","1. 
+",,,12,"Customer List"
+70,"To verify admin should edit all customer profiles.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the customer.
+
+5. Click on the customer list.
+
+6. Click on the edit button.
+","1. Admin should edit all customer profiles which is should on the customer list page.
+","1. 
+",,,12,"Customer List"
+71,"To verify admin should edit Full name, Password, & Profile picture.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the customer.
+
+5. Click on the customer list.
+
+6. Click on the edit button.
+
+7. Click the text fields one by one.
+","1. Admin should edit the Full name, Password & Profile picture.
+","1. 
+",,,12,"Customer List"
+72,"To verify click on the save button, it should update the customer info & redirect to the customer list page.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the customer.
+
+5. Click on the customer list.
+
+6. Click on the edit button.
+
+7. Update the info.
+
+8. Click on the Save button.
+","1. Customer info should update by clicking on the save button & redirect to the customer list page.
+","1. 
+",,,12,"Customer List"
+73,"To verify click on the cancel button, it cannot update the customer info and redirect to the customer list page.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the customer.
+
+5. Click on the customer list.
+
+6. Click on the edit button.
+
+7. Click on the cancel button.
+","1. Customer info should not update on clicking on the cancel button & redirect to the customer list page.
+","1. 
+",,,12,"Customer List"
+74,"To verify click on the delete button, it should delete the customer and disappear on the customer list page.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the customer.
+
+5. Click on the customer list.
+
+6. Click on the delete button.
+","1. Admin should delete all customers on the customer list page.
+","1. 
+",,,12,"Customer List"
+75,"To verify admin should see entries per page to the selected option.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the customer.
+
+5. Click on the customer list.
+
+6. Select the option.
+","1. Admin should see the no of entries per page as per selection.
+","1. 
+",,,12,"Customer List"
+76,"To verify admin should search the data with ID, Name, Email, Phone# in the given search field.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the customer.
+
+5. Click on the customer list
+
+6. Enter the data in the search field.
+","1. Admin should search the data with ID, Name, Email, Phone# in the given search field.
+","1. 
+",,,12,"Customer List"
+77,"To verify admin should change the page through pagination.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the customer.
+
+5. Click on the customer list.
+
+6. Select the page#.
+","1. Admin should change or select the page through pagination which is given at the right bottom of the page.
+","1. 
+",,,12,"Customer List"
+78,"To verify Order Confirmation List is showing to the admin on Customer Support section.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on customer support.
+
+5. Click on the order confirmation list.
+","1. Order Confirmation List is showing to the admin on the Customer Support section.
+","1. 
+",,,13,"Customer Support"
+79,"To verify Banner List & Add Banner is showing to the admin on banner section.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the banner.
+","1. Banner List & Add Banner is showing to the admin on the banner section.
+","1. 
+",,,15,Banner
+80,"To verify admin click on the banner list button, it should redirect to the banner list page.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the banner.
+
+5. Click on the banner list.
+","1. Admin should redirect to the banner list page after clicking on the banner list option.
+","1. 
+",,,16,"Banner List"
+81,"To verify admin should see all banners which are showing on the banner list.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the banner.
+
+5. Click on the banner list.
+","1. A list of all banners should be showing who has been created through the customer portal.
+","1. 
+",,,16,"Banner List"
+82,"To verify admin click on edit button, it should redirect to the banner edit page.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the banner.
+
+5. Click on the banner list.
+
+6. Click on the edit button.
+","1. Admin should redirect to the edit page.
+","1. 
+",,,16,"Banner List"
+83,"To verify admin should edit all banners.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the banner.
+
+5. Click on the banner list.
+
+6. Click on the edit button.
+","1. Admin should edit all banners which should on the banner list page.
+","1. 
+",,,16,"Banner List"
+84,"To verify admin should edit Title, Sub Title, Banner Details & Banner picture.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the banner.
+
+5. Click on the banner list.
+
+6. Click on the edit button.
+
+7. Click the text fields one by one & update.
+","1. Admin should edit Title, Sub Title, Banner Details & Banner picture.
+","1. 
+",,,16,"Banner List"
+85,"To verify click on the save button, it should update the banner details & redirect to the banner list page.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the banner.
+
+5. Click on the banner list.
+
+6. Click on the edit button.
+
+7. Update the info.
+
+8. Click on the Save button.
+","1. Banner details should update by clicking on the save button & redirect to the banner list page.
+","1. 
+",,,16,"Banner List"
+86,"To verify click on the cancel button, it cannot update the banner details and redirect to the banner list page.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the banner.
+
+5. Click on the banner list.
+
+6. Click on the edit button.
+
+7. Click on the cancel button.
+","1. Banner Details should not update on clicking on the cancel button & redirect to the banner list page.
+","1. 
+",,,16,"Banner List"
+87,"To verify click on the delete button, it should delete the banner and disappear on the banner list page.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the banner.
+
+5. Click on the banner list.
+
+6. Click on the delete button.
+","1. Admin should delete all banners on the customer list page & it can be disappear.
+","1. 
+",,,16,"Banner List"
+88,"To verify admin should see entries per page to the selected option.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the banner.
+
+5. Click on the banner list.
+
+6. Select the option.
+","1. Admin should see the no of entries per page as per selection.
+","1. 
+",,,16,"Banner List"
+89,"To verify admin should search the data with ID, Title, Sub Title & Details in the given search field.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the banner.
+
+5. Click on the banner list.
+
+6. Enter the data in the search field.
+","1. Admin should search the data with ID, Title, Sub Title & Details in the given search field.
+","1. 
+",,,16,"Banner List"
+90,"To verify admin should change the page through pagination.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the banner.
+
+5. Click on the banner list.
+
+6. Select the page#.
+","1. Admin should change or select the page through pagination which is given at the right bottom of the page.
+","1. 
+",,,16,"Banner List"
+91,"To verify admin click on the add banner button, it should redirect to the add banner page.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the banner.
+
+5. Click on the add banner.
+
+6. Select the page#.
+","1. Admin should redirect to the add banner page.
+","1. 
+",,,17,"Add Banner"
+92,"To verify admin should see Title, Sub Title, Banner Detail & Upload picture fields on add banner page.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the banner.
+
+5. Click on the add banner.
+","1. Admin should see Title, Sub Title, Banner Detail & Upload picture fields on add banner page.
+","1. 
+",,,17,"Add Banner"
+93,"To verify admin should enter the data and upload the picture in the given fields.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the banner.
+
+5. Click on the add banner.
+","1. Admin should enter the data and upload the picture in the given fields.
+","1. 
+",,,17,"Add Banner"
+94,"To verify admin should click on the save button, it should create the banner & redirect to the banner list page.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the banner.
+
+5. Click on the add banner.
+
+6. Enter the data in the given fields.
+
+7. Click on the Save button.
+","1. Admin should click on the save button, it should create the banner & redirect to the banner list page.
+","1. 
+",,,17,"Add Banner"
+95,"To verify admin should click on the cancel button, it cannot create the banner and redirect to the banner list page.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the banner.
+
+5. Click on the add banner.
+
+6. Enter data in the given fields.
+
+7. Click on the cancel button.
+","1. Admin should click on the cancel button, it cannot create the banner and redirect to the banner list page.
+","1. 
+",,,17,"Add Banner"
+96,"To verify Brand List & Add Brand is showing to the admin on brand section.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the brand.
+","1. Brand List & Add Brand is showing to the admin on brand section.
+","1. 
+",,,18,Brand
+97,"To verify admin click on the Brand list button, it should redirect to the brand list page.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the brand.
+
+5. Click on the brand list.
+","1. Admin should redirect to the brand list page after clicking on the brand list option.
+","1. 
+",,,19,"Brand List"
+98,"To verify admin should see all brands which are showing on the brand list.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the brand.
+
+5. Click on the brand list.
+","1. A list of all brands should be showing who has been created through the customer portal.
+","1. 
+",,,19,"Brand List"
+99,"To verify admin click on edit button, it should redirect to the brand edit page.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the brand.
+
+5. Click on the brand list.
+
+6. Click on the edit button.
+","1. Admin should redirect to the edit page.
+","1. 
+",,,19,"Brand List"
+100,"To verify admin should edit all brands.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the brand.
+
+5. Click on the brand list.
+
+6. Click on the edit button.
+","1. Admin should edit all brands which should on the banner list page.
+","1. 
+",,,19,"Brand List"
+101,"To verify admin should edit Title & Brand image.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the brand.
+
+5. Click on the brand list.
+
+6. Click on the edit button.
+
+7. Click the text fields one by one & update.
+","1. Admin should edit Title & Brand image.
+","1. 
+",,,19,"Brand List"
+102,"To verify click on the save button, it should update the brand details & redirect to the brand list page.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the brand.
+
+5. Click on the brand list.
+
+6. Click on the edit button.
+
+7. Update the info.
+
+8. Click on the Save button.
+","1. Brand details should update by clicking on the save button & redirect to the brand list page.
+","1. 
+",,,19,"Brand List"
+103,"To verify click on the cancel button, it cannot update the brand details and redirect to the brand list page.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the brand.
+
+5. Click on the brand list.
+
+6. Click on the edit button.
+
+7. Click on the cancel button.
+","1. Brand Details should not update on clicking on the cancel button & redirect to the banner list page.
+","1. 
+",,,19,"Brand List"
+104,"To verify admin should see entries per page to the selected option.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the brand.
+
+5. Click on the brand list.
+
+6. Select the option.
+","1. Admin should see the no of entries per page as per selection.
+","1. 
+",,,19,"Brand List"
+105,"To verify admin should search the data with ID, Vendor ID & Title in the given search field.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the brand.
+
+5. Click on the brand list.
+
+6. Enter the data in the search field.
+","1. Admin should search the data with ID, Vendor ID & Title in the given search field.
+","1. 
+",,,19,"Brand List"
+106,"To verify admin should change the page through pagination.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the brand.
+
+5. Click on the brand list.
+
+6. Select the page#.
+","1. Admin should change or select the page through pagination which is given at the right bottom of the page.
+","1. 
+",,,19,"Brand List"
+107,"To verify admin click on the add brand button, it should redirect to the add brand page.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the brand.
+
+5. Click on the add brand.
+
+6. Select the page#.
+","1. Admin should redirect to the add brand page.
+","1. 
+",,,20,"Add Brand"
+108,"To verify admin should see Title, Vendor ID & Upload brand image option on add brand page.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the brand.
+
+5. Click on the add brand.
+","1. Admin should see Title, Vendor ID & Upload brand image option on add brand page.
+","1. 
+",,,20,"Add Brand"
+109,"To verify admin should enter the data and upload the picture in the given fields.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the brand.
+
+5. Click on the add brand.
+","1. Admin should enter the data and upload the picture in the given fields.
+","1. 
+",,,20,"Add Brand"
+110,"To verify admin should click on the save button, it should create the brand & redirect to the brand list page.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the brand.
+
+5. Click on the add brand.
+
+6. Enter the data in the given fields.
+
+7. Click on the Save button.
+","1. Admin should click on the save button, it should create the brand & redirect to the brand list page.
+","1. 
+",,,20,"Add Brand"
+111,"To verify admin should click on the cancel button, it cannot create the brand and redirect to the brand list page.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the brand.
+
+5. Click on the add brand.
+
+6. Enter data in the given fields.
+
+7. Click on the cancel button.
+","1. Admin should click on the cancel button, it cannot create the brand and redirect to the brand list page.
+","1. 
+",,,20,"Add Brand"
+112,"To verify CMS List is showing to the admin on CMS section.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the CMS.
+","1. Admin should see the CMS List option.
+","1. 
+",,,21,CMS
+113,"To verify admin click on the CMS list button, it should redirect to the CMS list page.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the cms.
+
+5. Click on the cms list.
+","1. Admin should redirect to the cms list page after clicking on the cms list option.
+","1. 
+",,,22,"CMS List"
+114,"To verify admin should see all CMS list which are showing on the CMS list.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the cms.
+
+5. Click on the cms list
+","1. A cms list should be showing who has been created.
+","1. 
+",,,22,"CMS List"
+115,"To verify admin click on edit button, it should redirect to the CMS edit page.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the cms.
+
+5. Click on the cms list.
+
+6. Click on the edit button.
+","1. Admin should redirect to the edit page.
+","1. 
+",,,22,"CMS List"
+116,"To verify admin should edit all CMS.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the cms.
+
+5. Click on the cms list.
+
+6. Click on the edit button.
+","1. Admin should edit all cms which should on the cms list page.
+","1. 
+",,,22,"CMS List"
+117,"To verify admin should edit Page Title & Content.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the cms.
+
+5. Click on the cms list.
+
+6. Click on the edit button.
+
+7. Click the text fields one by one.
+","1. Admin should edit Page Title & Content.
+","1. 
+",,,22,"CMS List"
+118,"To verify click on the save button, it should update the CMS & redirect to the CMS list page.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the cms.
+
+5. Click on the cms list.
+
+6. Click on the edit button.
+
+7. Update the info.
+
+8. Click on the Save button.
+","1. CMS should update by clicking on the save button & redirect to the cms list page.
+","1. 
+",,,22,"CMS List"
+119,"To verify click on the cancel button, it cannot update the CMS and redirect to the CMS list page.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the cms.
+
+5. Click on the cms list.
+
+6. Click on the edit button.
+
+7. Click on the cancel button.
+","1. CMS should not update on clicking on the cancel button & redirect to the cms list page.
+","1. 
+",,,22,"CMS List"
+120,"To verify admin should see entries per page to the selected option.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the cms.
+
+5. Click on the cms list.
+
+6. Select the option.
+","1. Admin should see the no of entries per page as per selection.
+","1. 
+",,,22,"CMS List"
+121,"To verify admin should search the data with ID, Page Title, Slug & Content in the given search field.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the cms.
+
+5. Click on the cms list
+
+6. Enter the data in the search field.
+","1. Admin should search the data with ID, Page Title, Slug & Content in the given search field.
+","1. 
+",,,22,"CMS List"
+122,"To verify admin should change the page through pagination.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the cms.
+
+5. Click on the cms list.
+
+6. Select the page#.
+","1. Admin should change or select the page through pagination which is given at the right bottom of the page.
+","1. 
+",,,22,"CMS List"
+123,"To verify admin click on the push notification button, it should redirect to the push notification page.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the push notification.
+","1. Admin should redirect to the push notification page after clicking on the push notification option.
+","1. 
+",,,23,"Push Notification"
+124,"To verify admin should see Subject & Message fields on push notification page.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the push notification.
+","1. Admin should see Subject & Message fields on the push notification page.
+","1. 
+",,,23,"Push Notification"
+125,"To verify admin should enter the data in the given fields.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the push notification.
+","1. Admin should enter the data in the given fields.
+","1. 
+",,,23,"Push Notification"
+126,"To verify admin should click on the save button, it should send the notification to the app of all customers.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the push notification.
+
+5. Enter the data in the given fields.
+
+6. Click on the Save button.
+
+7. Notification sent to the app of all customers.
+","1. 1. Admin should click on the save button, it should send the notification to the app of all customers.
+
+2. Customers should receive notifications that are sent through the customer panel.
+","1. 
+",,,23,"Push Notification"
+127,"To verify admin should click on the cancel button, it cannot send the notification to the app and redirect to the dashboard page.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the push notification.
+
+5. Enter data in the given fields.
+
+6. Click on the cancel button.
+","1. Admin should click on the cancel button, it cannot send the notification to the app and redirect to the dashboard page.
+","1. 
+",,,23,"Push Notification"
+128,"To verify contact list is showing to the admin on contact section.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the contact us.
+","1. Admin should see the contact list option.
+","1. 
+",,,24,"Contact Us"
+129,"To verify admin click on the contact list button, it should redirect to the contact list page.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the contact us.
+
+5. Click on the contact list.
+","1. Admin should redirect to the contact list page after clicking on the contact list option.
+","1. 
+",,,25,"Contact List"
+130,"To verify admin should see all messages with customer detail which are showing on the contact list.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the contact us.
+
+5. Click on the contact list.
+","1. Admin should see all messages with customer detail which are showing on the contact list.
+","1. 
+",,,25,"Contact List"
+131,"To verify admin click on details button, it should redirect to the details page.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the contact us.
+
+5. Click on the contact list.
+
+6. Click on the Details button.
+","1. Admin click on the details button, it should redirect to the details page.
+","1. 
+",,,25,"Contact List"
+132,"To verify admin should all message details of the customer like Name, Phone#, Message, Email & Title.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the contact us.
+
+5. Click on the contact list.
+
+6. Click on the Details button.
+","1. Admin should all message details of the customer like Name, Phone#, Message, Email & Title.
+","1. 
+",,,25,"Contact List"
+133,"To verify admin click on the back button, it should redirect to the contact list page.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the contact us.
+
+5. Click on the contact list.
+
+6. Click on the Details button.
+
+7. Click on the Back button.
+","1. Admin click on the back button, it should redirect to the contact list page.
+","1. 
+",,,25,"Contact List"
+134,"To verify admin should see entries per page to the selected option.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the contact us.
+
+5. Click on the contact list.
+
+6. Select the option.
+","1. Admin should see the no of entries per page as per selection.
+","1. 
+",,,25,"Contact List"
+135,"To verify admin should search the data with ID, Name, Email, Phone, Title & Message in the given search field.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the contact us.
+
+5. Click on the contact list.
+
+6. Enter the data in the search field.
+","1. Admin should search the data with ID, Name, Email, Phone, Title & Message in the given search field.
+","1. 
+",,,25,"Contact List"
+136,"To verify admin should change the page through pagination.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the contact us.
+
+5. Click on the contact list.
+
+6. Select the page#.
+","1. Admin should change or select the page through pagination which is given at the right bottom of the page.
+","1. 
+",,,25,"Contact List"
+137,"To verify admin click on change password option which is given in the side navigation & drop-down then navigate to change password screen.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the change password.
+","1. Admin should navigate to the change password screen.
+","1. 
+",,,26,"Change Password"
+138,"To verify old password should required to change the password.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the change password.
+","1. Old password should be required for update password.
+","1. 
+",,,26,"Change Password"
+139,"To verify admin enter the old password, new password which is not similar or similar to old and confirm password and click on submit button should change the password .",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the change password.
+","1. Admin should change the password successfully.
+","1. 
+",,,26,"Change Password"
+140,"To verify admin click to the save button, it saves the new password successfully.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the change password
+
+5. Click on the Save button.
+","1. Admin should save the new password by clicking the save button.
+","1. 
+",,,26,"Change Password"
+141,"To verify admin click to the cancel button, it redirects to the dashboard page and cannot save the password.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the change password.
+
+5. Click on the cancel button.
+","1. Admin should redirect the dashboard page by clicking the cancel button and cannot save the password.
+","1. 
+",,,26,"Change Password"
+142,"To verify, admin should see a edit profile option on right top of the page & then navigate to edit profile screen.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Hower the arrow which is given in right top.
+
+5. Click on the edit profile.
+","1. Edit profile screen should be open after clicking on the edit profile button.
+","1. 
+",,,27,"Edit Profile"
+143,"To verify admin should edit the Full name, Phone#,  Password and Profile picture. .",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Hower the arrow which is given in right top.
+
+5. Click on the edit profile
+","1. Admin should edit the Full name, Phone#,  Password, and Profile picture.
+","1. 
+",,,27,"Edit Profile"
+144,"To verify admin click on save button then admin detail should update.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Hower the arrow which is given in right top.
+
+5. Click on the edit profile.
+","1. Admin details should be changed after clicking on the save button.
+","1. 
+",,,27,"Edit Profile"
+145,"To verify admin click to the cancel button, it redirects to the dashboard page and cannot update any field.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Hower the arrow which is given in right top.
+
+5. Click on the edit profile
+","1. Admin should redirect the dashboard page by clicking the cancel button and cannot update any field.
+","1. 
+",,,27,"Edit Profile"
+146,"To verify admin click on the profile picture it shows in full screen.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Hower the arrow which is given in right top.
+
+5. Click on the edit profile.
+","1. Admin should see the image on the full screen.
+","1. 
+",,,27,"Edit Profile"
+147,"To verify admin click on the logout button, admin should be logout and redirects to the login page.",,"1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL & login with valid credentials.",,undefined,undefined,other,undefined,is-not-automated,actual,"1. 1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the logout button.
+","1. Admin should be logout and redirects to the login page after clicking on the logout button.
+","1. 
+",,,28,Logout

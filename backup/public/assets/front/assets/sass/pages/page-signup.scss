@@ -1,0 +1,68 @@
+// @import '../variables';
+
+
+.become_joey_form{ background: $white; position: relative; z-index: 10; max-width: 670px; margin: 0 auto; overflow: hidden;
+	@include box-shadow(0, 2px, 12px,  $bc1-lighter);
+	@include border-radius($base-border-radius);
+	@include transform(translate(0, -140px));
+	.row1{padding: 40px 80px;
+		background: url(../images/joey_rider.png) no-repeat 113% bottom $white; background-size: 210px auto;
+	}
+	.row2{background: $bc2-lightest; padding: 20px;}
+	
+	&.success{
+		.icon{margin: 20px auto 20px; display: table;
+			img{max-height: 135px;}
+		}
+		.cnt{padding-bottom: 20px;}
+	}
+}
+
+.page-signup{background: url('https://assets.joeyco.com/images/joey/signup/scroll.jpg') no-repeat fixed; background-size: auto 100vh;
+
+	#top-section{ padding-top: 200px;}
+
+	.signup-form-wrap{ padding-bottom: 20px; 
+		#signup-form{background: rgba($white, 0.8); 
+			@include border-radius($base-border-radius);
+			.form-section{padding: 20px;
+				.form-title{background: $basecolor1; color: $white !important; padding: 11px 20px;
+					@include border-radius($base-border-radius);
+				}
+			}
+		}
+	}
+
+	.vehicle_radios{padding: 0 15px;
+		.form-check{padding: 0;
+			[type="radio"]{ margin: 0 auto; position: unset; display: block; }
+			&:not(:last-child){margin-right: 20px;}
+		}
+	}
+}
+
+.signup-steps{
+	
+	.form-check, .form-radio{
+        .form-check-label, .form-radio-label{ background: $bc1-lightest; border: solid 1px $bc1-lightest;
+            [class*="icofont-"]{}
+            &:hover{
+                
+            }
+        }
+        [type="checkbox"], [type="radio"]{ 
+            &:checked{
+                ~ .form-check-label, ~ .form-radio-label{ background: $white; border-color: $basecolor1;
+                }
+            }
+        }
+	}
+
+	.form-control{background: $bc1-lightest;
+		&:focus{background: $white;}
+	}
+}
+
+.page_signup_steps{
+	background: url(../images/joey_rider.png) no-repeat right bottom $white; background-size: 350px auto;
+}

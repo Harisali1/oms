@@ -1,0 +1,25 @@
+// @import '../variables';
+
+.page-referral{
+	.referral-form-section{
+		.or-column{min-height: 310px;}
+	}
+	
+	#referral-form{
+		padding: 20px 0;
+	}
+
+	.invite_info_wrap{
+		.invite_info{max-width: 300px; margin: 0 auto;}
+	}
+
+	.referral_wrap{ border: solid 1px darken($bc1-lightest, 2%); padding: 18px 125px 18px 18px; margin-bottom: 30px; position: relative;
+		@include border-radius($base-border-radius);
+		.info{padding-left: 10px;}
+		@include box-shadow(0, 1px, 3px, rgba($bc1-lighter, 0.6));
+		.status{ padding-right: 18px;
+			@include position(absolute, 0 0 null null); 
+			@include size(120px, 100%);
+		}
+	}
+}

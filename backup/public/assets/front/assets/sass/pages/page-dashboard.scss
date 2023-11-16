@@ -1,0 +1,19 @@
+// @import '../variables';
+
+.page-dashbaord{
+	.attr{padding: 20px; background: $white; margin-bottom: 30px; border: solid 2px transparent;
+		@include border-radius($base-border-radius);
+		@include box-shadow(0, 2px, 8px, $bc1-lighter);
+	}
+    .summary-hightlights{background: $bc1-lightest; padding: 12px 0 !important;
+		.label{font-size: $bfsize-xs;  line-height: 1.4em;}
+		.value{color: $basecolor1; font-weight: $bold; font-size: $bfsize+4;}
+		.small-value{font-size: $bfsize-mb; line-height: 1.2em; color: $bc1-light;}
+		.attr{
+			@include transition($duration-1);
+			&:hover{border-color: $basecolor1;
+				@include box-shadow(0, 2px, 8px, $bc1-light);
+			}
+		}
+	}
+}

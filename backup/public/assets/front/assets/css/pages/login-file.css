@@ -1,0 +1,38 @@
+/*
+Error: Invalid CSS after "page-login": expected "{", was ""
+        on line 1 of D:/projects/htdocs/joey.joeyco.com/assets/sass/pages/login-file.scss
+
+1: page-login
+
+Backtrace:
+D:/projects/htdocs/joey.joeyco.com/assets/sass/pages/login-file.scss:1
+C:/Users/Joeyco01/Downloads/compass.app.windows.1.29/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/scss/parser.rb:1166:in `expected'
+C:/Users/Joeyco01/Downloads/compass.app.windows.1.29/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/scss/parser.rb:1101:in `expected'
+C:/Users/Joeyco01/Downloads/compass.app.windows.1.29/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/scss/parser.rb:1096:in `tok!'
+C:/Users/Joeyco01/Downloads/compass.app.windows.1.29/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/scss/parser.rb:641:in `block'
+C:/Users/Joeyco01/Downloads/compass.app.windows.1.29/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/scss/parser.rb:635:in `ruleset'
+C:/Users/Joeyco01/Downloads/compass.app.windows.1.29/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/scss/parser.rb:660:in `block_child'
+C:/Users/Joeyco01/Downloads/compass.app.windows.1.29/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/scss/parser.rb:650:in `block_contents'
+C:/Users/Joeyco01/Downloads/compass.app.windows.1.29/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/scss/parser.rb:117:in `stylesheet'
+C:/Users/Joeyco01/Downloads/compass.app.windows.1.29/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/scss/parser.rb:42:in `parse'
+C:/Users/Joeyco01/Downloads/compass.app.windows.1.29/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/engine.rb:393:in `_to_tree'
+C:/Users/Joeyco01/Downloads/compass.app.windows.1.29/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/engine.rb:268:in `render'
+C:/Users/Joeyco01/Downloads/compass.app.windows.1.29/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+org/jruby/RubyMethod.java:128:in `call'
+file:/C:/Users/Joeyco01/Downloads/compass.app.windows.1.29/compass.app/compass-app.jar!/hook/compass_patch.rb:108:in `update_stylesheet'
+C:/Users/Joeyco01/Downloads/compass.app.windows.1.29/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/plugin/compiler.rb:215:in `update_stylesheets'
+org/jruby/RubyArray.java:1613:in `each'
+C:/Users/Joeyco01/Downloads/compass.app.windows.1.29/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+C:/Users/Joeyco01/Downloads/compass.app.windows.1.29/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/plugin/compiler.rb:470:in `on_file_changed'
+C:/Users/Joeyco01/Downloads/compass.app.windows.1.29/compass.app/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/plugin/compiler.rb:328:in `watch'
+org/jruby/RubyProc.java:271:in `call'
+C:/Users/Joeyco01/Downloads/compass.app.windows.1.29/compass.app/lib/ruby/jruby/listen-1.3.1-patched/lib/listen/listener.rb:252:in `on_change'
+C:/Users/Joeyco01/Downloads/compass.app.windows.1.29/compass.app/lib/ruby/jruby/listen-1.3.1-patched/lib/listen/listener.rb:290:in `initialize_adapter'
+org/jruby/RubyProc.java:271:in `call'
+C:/Users/Joeyco01/Downloads/compass.app.windows.1.29/compass.app/lib/ruby/jruby/listen-1.3.1-patched/lib/listen/adapters/polling.rb:48:in `poll_changed_directories'
+C:/Users/Joeyco01/Downloads/compass.app.windows.1.29/compass.app/lib/ruby/jruby/listen-1.3.1-patched/lib/listen/adapter.rb:297:in `start_poller'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"page-login\": expected \"{\", was \"\"\A         on line 1 of D:/projects/htdocs/joey.joeyco.com/assets/sass/pages/login-file.scss\A \A 1: page-login"; }

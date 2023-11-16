@@ -1,0 +1,60 @@
+// @import '../variables';
+
+.page-dispatch{
+	.dispatch_actions{
+		li{padding:0 5px 5px 0;}
+		.btn{padding: 8px;}
+	}
+
+	.disp_map_view_wrap{
+		border-top: solid 1px $bc1-lighter; 
+
+		#left_sidebar{position: relative;
+			.inner{padding: 35px 0;}
+			[class*="widget_"]{border-bottom: none !important;}
+			.order_found_btn{margin-top: 30px;
+				img{width: 58px;}
+				.btn_info{padding-left: 12px;}
+				[class*="icofont-"]{font-size: $bfsize+6;}
+			}
+
+			.orders_assign_wrap{background: $bc1-lightest; padding: 15px 26px; visibility: hidden; @include opacity(0);
+				@include size(100%);
+				@include position(absolute, 0 null null 0); z-index: 10;
+				@include transition($duration-2);
+				&.active{
+					visibility: visible; @include opacity(1);
+				}
+
+				.back_btn{color: $bf-color; text-decoration: none;
+					[class*="icofont-"]{}
+				}
+
+				.order_assign_list_box{background: $white; margin-top: 8px; 
+					@include border-radius($base-border-radius);
+					@include box-shadow(0, 1px, 6px, $bc1-light);
+					
+					.order_assign_list{max-height: 480px; overflow-y: auto;}
+
+					.table {margin: 0;
+						thead th{background: none; color: $bf-color; border-bottom-width: 1px;}
+						td{border-bottom: solid 1px $bc1-lighter;}
+					}
+
+					.assign_btn{
+						padding: 12px;
+					}
+				}
+			}
+		}
+
+		#right_content{
+			min-height: 72vh;
+		}
+
+		.google_map{
+			@include position(absolute, 0 0 null null);
+			@include size(100%);
+		}
+	}
+}

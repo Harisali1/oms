@@ -1,0 +1,20 @@
+// @import '../variables';
+
+.page-documents{
+	.doc-heading{
+		@include clearfix;
+		h4{float:left; border-right: solid 1px $bc1-lighter; padding-right: 14px; margin-right: 14px;}
+		.status-wrap{float:right;
+			span.lbl{display: inline-block; margin-right: 8px; color: $bc1-light;}
+			[class*="status-"]{}
+		}
+	}
+	.upload-row{position: relative;
+		.expiry-date{ z-index: 11;
+			@include position(absolute, 0 200px null null);
+			@include size(245px, 100%);
+			@include display(flex);
+			@include align-items(center);
+		}
+	}
+}

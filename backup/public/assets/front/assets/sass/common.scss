@@ -1,0 +1,243 @@
+// @import 'variables';
+
+#main {
+    .pg-container{
+        min-height: calc(100vh - 88px);
+        &.container-fluid{padding: 0;}
+    }
+}
+// Header - [Start]
+#header{background: $white; border-bottom: solid 1px rgba($bc1-lighter, 0.6); position: relative; z-index: 100;
+    .row-1{
+        height: $header-height;
+    }
+    #logo{ 
+        img{max-width: 132px;}
+    }
+    @include not-for-mobile() {
+        #main-nav .main-nav-wrap{
+            > ul{@include display(flex);
+                @include align-items(center);
+                @include justify-content(center);
+                > li{position: relative;
+                    > a{color: $bf-color; text-decoration: none; padding:10px 12px; font-size: $bfsize-sm;
+                        [class*="sprite-"]{margin-right: 5px;}
+                    }
+
+                    > .sub-menu{background: $white; width: 270px;  padding: 10px 0;
+                        @include position(absolute, 100% null null 0);
+                        @include opacity(0); visibility: hidden;
+                        @include border-radius($base-border-radius);
+                        @include box-shadow(0, 1px, 4px, rgba($bc1-dark, 0.3));
+                        @include transform(translate(0, 14px));
+                        &:before{content:""; display: block; background: $white; border-left: solid 1px $bc1-lighter; border-top: solid 1px $bc1-lighter;
+                            @include size(16px);
+                            @include border-radius(2px); overflow: hidden;
+                            @include position(absolute, -8px null null 22px);
+                            @include transform(rotate(45deg));
+                        }
+                        >ul{list-style: none; margin: 0; padding: 0;
+                            >li{
+                                >a{display: block; padding: 10px 10px; text-decoration: none; color: $bf-color;
+                                    &:hover{background: $bc1-lightest; padding-left: 15px;}
+                                }
+                                &:not(:last-child) > a{border-bottom: solid 1px darken($bc1-lightest, 3%);}
+                                &.active > a{
+                                    color: $basecolor1;
+                                }
+                            }
+                        }
+                    }
+                    &:not(:last-child) > a{
+                        border-right: solid 1px darken($bc1-lightest, 4%);
+                    }
+                    &:hover{
+                        > .sub-menu{visibility: visible; @include opacity(1);}
+                    }
+                    &:hover, &.active{
+                        > a{color: $basecolor1;
+                            [class*="sprite-"]{background-position-y: -$sprite35;}
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #userlogin-top{
+        @include not-for-mobile {width: 220px;}
+        .thumb{
+            &, img{@include size(60px); @include flexWidth(60px);}
+        }
+        .info{padding-right: 8px; line-height: 1.4em;
+            .name{font-size: $bfsize-xs;}
+        }
+    }
+}
+// Header - [/end]
+
+// Main Header - [Start]
+
+#client-header{background: #3e3e3e; z-index: 1000;
+    @include position(fixed, 0 0 null null);
+    @include size(100%, auto);
+    .container{@include padding(0 null); position:relative;}
+    .signup-now{background: $basecolor3; padding: 4px 12px; color: $bc3-darker; text-decoration: none;
+        @include position(absolute, 100% 0 null null);
+        @include box-shadow(0, 1px, 2px, rgba($black, 0.2));
+    }
+    #logo{
+        img{max-width: 172px;}
+    }
+    #client-nav{
+        ul{
+            @include display(flex);
+            @include align-items(center);
+            @include justify-content(center);
+        }
+        li{
+            a{color: $white; display: block; padding: 4px 10px;}
+            &.active a{color: $basecolor2;}
+        }
+    }
+    .cl-account-nav{
+        a{ padding-left: 15px; }
+    }
+}
+// Main Header - [/End]
+
+// Footer - [/Start]
+#footer{ background: $white; padding: 30px 0; border-top: solid 1px $bc1-lightest; position: relative;
+    .logo-col{@include size(296px, 100%); background: $bc1-lightest;
+        @include position(absolute, 0 null null 0);
+        @include display(flex);
+        @include align-items(center);
+        @include justify-content(center);
+        img{max-width: 125px;}
+    }
+
+    ul{}
+    li{
+        a{display: block; padding: 0 15px; text-decoration: none;}
+        &:not(:last-child){ border-right: solid 1px $bc1-lighter; }
+    }
+}
+// Footer - [/end]
+
+// Client Footer - [Start]
+#client_footer{
+    .footer-pattern{background: url('../images/kangaroo-pattern.jpeg') $basecolor3; background-size: auto 68px; height: 68px;}
+    .row_1{background: #3e3e3e;
+        h4{color: $basecolor3 !important;}
+        ul{@extend %no-list;}
+        li, p {margin: 0; padding: 0; font-size: $bfsize-xs; color: #7c7c7c;}
+        li{ margin: 0; padding: 0; line-height: 1.5em;
+            a{display: block; color: $basecolor3; text-decoration: none;
+                &:hover{text-decoration: underline;}
+            }
+        }
+    }
+    .row_2{background: #000; color: #3e3e3e; text-align: center; font-size: $bfsize-xs; padding: 5px 0;}
+}
+// Client Footer - [/end]
+
+// Main content area - [Start]
+#main_content_area{
+    .content_header_wrap, .content_footer_wrap{@include padding(null 30px);}
+    .content_footer_wrap{@include padding(20px null);}
+
+    .form-section, .section-content{border-bottom: solid 1px darken($bc1-lightest, 3%); padding: $section-padding-sm;
+        .section_heading2{border-top: solid 1px; border-bottom: solid 1px; border-color: $bc1-lightest; padding:12px 30px;}
+        .section-inner{@include padding(null 30px);}
+    }
+    
+    &:not(.style_2){
+        #left_sidebar, #right_content{min-height: 100vh; margin-top: -$header-height;
+            > .inner{padding: $header-height+50 0 0;}
+        }
+    }
+
+    // Left sidebar
+    #left_sidebar{
+        [class*="widget_"]{border-bottom: solid 1px $bc1-lighter; @include padding(null 0 20px 20px); 
+            &:not(:last-child){margin-bottom: 20px;}
+        }
+        .sidebar_nav{
+            ul{}
+            a{display: block; background: $white; padding: 13px 20px; text-decoration: none; position: relative; font-size: $bfsize+1;
+                @include box-shadow(0, 1px, 2px, $bc1-lighter);
+                @include border-radius(100px);
+                &:after{content:"\eaa0"; font-size: $bfsize+5; display: block; font-family: $iconfont; height: 100%; color: rgba($bc1-lighter, 0.7);
+                    @include position(absolute, 0 10px null null 0);
+                    @include display(flex);
+                    @include align-items(center);
+                    @include justify-content(center);
+                }
+                &:hover{padding-left: 24px;
+                    &:after{right: 14px; @include transition($duration-1);}
+                }
+            }
+            li{
+                &:not(last-child){margin-bottom: 8px;}
+                
+                &.active{
+                    a{@extend %gradient-1; color: $white;
+                        &:after{color: $white;}
+                    }
+                }
+            }
+        }
+        
+        .order_types{
+            li{
+                &:not(:last-child) a{border-bottom: solid 1px $bc1-lighter;}
+                a{display: block; padding: 4px 0; font-size: $bfsize-xs; text-decoration: none; color: $bf-color;
+                    .count{ float: right;}
+                }
+            }
+        }
+    }
+
+    // Right content
+    #right_content{
+        
+    }
+    
+    .heading_area{
+        padding: 30px 0;
+    }
+}
+// Main content area - [/end]
+
+// Client content area - [Start]
+.inner-page {
+    .content-area{background: $white; padding-top: 82px;}
+}
+// Client content area - [/end]
+// Payments - [Start]
+.creditcard-form-wrap{ padding: 20px; border: solid 1px $bc1-lighter; max-width: 450px; margin: 0 auto;
+    @include border-radius($base-border-radius);
+    @include box-shadow(0, 1px, 4px, $bc1-lighter);
+}
+
+.payment-method-list{
+    .payment-method-box{ border: solid 1px $bc1-lighter; padding: 25px 14px 25px 70px; margin: 15px 0; position: relative;
+        @include border-radius($base-border-radius);
+        @include box-shadow(0, 2px, 5px, $bc1-lighter);
+        .icon{font-size: $bfsize*2+7; color: $basecolor1;
+            @include position(absolute, 22px null null 18px);
+        }
+        .payment-icon{@include position(absolute, null 15px 15px null);}
+    }
+
+    .add-payment-method{ border: solid 1px $bc1-lighter; padding: 24px; margin: 15px 0; position: relative;
+        @include border-radius($base-border-radius);
+        @include box-shadow(0, 2px, 5px, $bc1-lighter);
+
+        .add-icon{display: block; background: $bc1-lightest; font-size: $bfsize+4; color: $basecolor1; margin: 0 auto;
+            @include size(55px);
+            @include border-radius(100%);
+            .add-cc-txt{}
+        }
+    }
+}
+// Payments - [/end]

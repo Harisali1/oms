@@ -1,0 +1,6 @@
+// @import '../variables';
+.subscribe-box{ background: $bc1-lightest; padding: 15px 15px 15px 58px; position: relative;
+	[class*="sprite-"]{
+		@include position(absolute, 18px null null 13px);
+	}
+}

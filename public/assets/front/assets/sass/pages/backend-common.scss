@@ -1,0 +1,24 @@
+// @import '../variables';
+
+// Signup process
+
+#main-backend{
+    .pg-container{min-height: calc(100vh - 88px);}
+    .signup_header{ margin: 0 auto; background: $bc2-lightest; 
+        @include display(flex);
+        @include align-items(center);
+        @include justify-content(center);
+        .icon{width: 157px;}
+        .signup_msg{padding-left: 20px; max-width: 500px;}
+    }
+
+    .signup_steps{ max-width: 680px; margin: 30px auto 20px;
+        li{@include flexWidth(16.66666%);}
+    }
+    .signup_form_cnt{ padding-top: 40px;
+        .form-group{margin-bottom: 20px;}
+    }
+    .signup_buttons_wrap{
+        .btn{min-width: 235px;}
+    }
+}

@@ -1,0 +1,11563 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<nodes>
+<cases>
+<node>
+<id>
+148
+</id>
+<title>
+To verify all changes through the admin panel should reflects to the app.
+</title>
+<description>
+
+</description>
+<preconditions>
+
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+</steps>
+</node>
+</cases>
+<suites>
+<node>
+<id>
+1
+</id>
+<title>
+Login Screen
+</title>
+<description>
+
+</description>
+<preconditions>
+
+</preconditions>
+<suites>
+</suites>
+<cases>
+<node>
+<id>
+1
+</id>
+<title>
+To verify admin should be able to enter the valid email and password on login fields.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+</action>
+<expected_result>
+Admin should be login successfully.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+2
+</id>
+<title>
+To verify admin should be login with valid credential and land on dashboard home screen.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer portal URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search tab and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+</action>
+<expected_result>
+Admin should land on the customer portal dashboard screen.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+3
+</id>
+<title>
+To verify all spelling, capitalization, spacing button should be correct.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer portal URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+</action>
+<expected_result>
+Admin should be login &amp; Verify all spelling, capitalization, spacing, buttons should be showing correctly.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+149
+</id>
+<title>
+To verify admin should click on submit button without entering any credentials and shows a message “Please fill out the fields“. .
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; click on submit button.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Click on the submit button.
+</action>
+<expected_result>
+Admin should click on submit button without entering any credentials and shows a message “Please fill out the fields“.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+150
+</id>
+<title>
+To verify admin click on the forgot password button, it should redirect to the forgot password screen.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; click forgot password button.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Click on the forgot password button.
+</action>
+<expected_result>
+Admin should click on the forgot password button, it should redirect to the forgot password screen.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+151
+</id>
+<title>
+To verify admin should enter the email &amp; click to reset password button, it sent a password email.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; click forgot password button.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Click on the forgot password button.
+</action>
+<expected_result>
+Admin should enter the email &amp; click to reset password button, it sent a password email.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+</cases>
+</node>
+<node>
+<id>
+2
+</id>
+<title>
+Dashboard / Home Screen
+</title>
+<description>
+
+</description>
+<preconditions>
+
+</preconditions>
+<suites>
+<node>
+<id>
+3
+</id>
+<title>
+See Customer List
+</title>
+<description>
+
+</description>
+<preconditions>
+
+</preconditions>
+<suites>
+</suites>
+<cases>
+<node>
+<id>
+5
+</id>
+<title>
+To verify admin should see all customers which are showing on the customer list.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer portal URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the customer list card which is showing on the home screen.
+</action>
+<expected_result>
+A list of all customers should be showing who has been sign-up through the customer app.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+6
+</id>
+<title>
+To verify admin should active/inactive the customer.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer portal URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the customer list card.
+
+5. Click on the active status.
+</action>
+<expected_result>
+Admin should be active/inactive all customers which is given in the list.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+7
+</id>
+<title>
+To verify admin click on edit button, it should redirect to the customer edit info page.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the customer list card.
+
+5. Click on the edit button.
+</action>
+<expected_result>
+Admin should redirect to the edit page.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+22
+</id>
+<title>
+To verify admin should edit all customer profiles.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the customer card.
+
+5. Click on the edit button.
+</action>
+<expected_result>
+Admin should edit all customer profiles which is should on the customer list page.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+23
+</id>
+<title>
+To verify admin should edit Full name, Password, &amp; Profile picture.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the customer list card.
+
+5. Click on the edit button.
+
+6. Click the text fields one by one.
+</action>
+<expected_result>
+Admin should edit the Full name, Password &amp; Profile picture.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+24
+</id>
+<title>
+To verify click on the save button, it should update the customer info &amp; redirect to the customer list page.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the customer list card.
+
+5. Click on the edit button.
+
+6. Update the info.
+
+7. Click on the Save button.
+</action>
+<expected_result>
+Customer info should update by clicking on the save button &amp; redirect to the customer list page.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+25
+</id>
+<title>
+To verify click on the cancel button, it cannot update the customer info and redirect to the customer list page.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the customer list card.
+
+5. Click on the edit button.
+
+6. Click on the cancel button.
+</action>
+<expected_result>
+Customer info should not update on clicking on the cancel button &amp; redirect to the customer list page.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+26
+</id>
+<title>
+To verify click on the delete button, it should delete the customer and disappear on the customer list page.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the customer list card.
+
+5. Click on the delete button.
+</action>
+<expected_result>
+Admin should delete all customers on the customer list page.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+27
+</id>
+<title>
+To verify admin should see entries per page to the selected option.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the customer list card.
+
+5. Select the option.
+</action>
+<expected_result>
+Admin should see the no of entries per page as per selection.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+28
+</id>
+<title>
+To verify admin should search the data with ID, Name, Email, Phone# in the given search field.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the customer list card.
+
+5. Enter the data in the search field.
+</action>
+<expected_result>
+Admin should search the data with ID, Name, Email, Phone# in the given search field.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+29
+</id>
+<title>
+To verify admin should change the page through pagination.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the customer list card.
+
+5. Select the page#.
+</action>
+<expected_result>
+Admin should change or select the page through pagination which is given at the right bottom of the page.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+</cases>
+</node>
+<node>
+<id>
+4
+</id>
+<title>
+See Banner List
+</title>
+<description>
+
+</description>
+<preconditions>
+
+</preconditions>
+<suites>
+</suites>
+<cases>
+<node>
+<id>
+11
+</id>
+<title>
+To verify admin click on banner list card, it should redirect to the banner page.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer portal URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the banner list card which is showing on the home screen.
+</action>
+<expected_result>
+Admin should redirect to the banner page.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+12
+</id>
+<title>
+To verify admin should see all banners which are showing on the banner list page.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer portal URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the banner list card which is showing on the home screen.
+</action>
+<expected_result>
+A list of banners should be showing which are create through the admin panel.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+13
+</id>
+<title>
+To verify admin click on edit button, it should redirect to the banner edit page.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the banner list card.
+
+5. Click on the edit button.
+</action>
+<expected_result>
+Admin should redirect to the edit page.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+14
+</id>
+<title>
+To verify admin should edit all banners.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the banner card.
+
+5. Click on the edit button.
+</action>
+<expected_result>
+Admin should edit all banners which are should on banners page.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+15
+</id>
+<title>
+To verify admin should edit Title, Sub Title, Banner Detail &amp; Picture.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the banner list card.
+
+5. Click on the edit button.
+
+6. Click the text fields one by one.
+</action>
+<expected_result>
+Admin should edit the Title, Sub Title, Banner Details &amp; Picture.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+16
+</id>
+<title>
+To verify click on the save button, it should update the info &amp; redirect to the banner page.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the banner list card.
+
+5. Click on the edit button.
+
+6. Update the info.
+
+7. Click on the Save button.
+</action>
+<expected_result>
+Banner info should update on clicking on the save button &amp; redirect to the banner page.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+17
+</id>
+<title>
+To verify click on the cancel button, it cannot update the info and redirect to the banner page.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the banner list card.
+
+5. Click on the edit button.
+
+6. Click on the cancel button.
+</action>
+<expected_result>
+Banner info should not update on clicking on the cancel button &amp; redirect to the banner page.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+18
+</id>
+<title>
+To verify click on the delete button, it should delete the banner and disappear on the banner page.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the banner list card.
+
+5. Click on the delete button.
+</action>
+<expected_result>
+Admin should delete all banners on the banner page.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+19
+</id>
+<title>
+To verify admin should see entries per page to the selected option.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the banner list card.
+
+5. Select the option.
+</action>
+<expected_result>
+Admin should see the no of entries per page as per selection.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+20
+</id>
+<title>
+To verify admin should search the banner in the given search field.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the banner list card.
+
+5. Enter the data in the search field.
+</action>
+<expected_result>
+Admin should search the banner with banner id, title, subtitle &amp; details.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+21
+</id>
+<title>
+To verify admin should change the page through pagination.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the banner list card.
+
+5. Select the page#.
+</action>
+<expected_result>
+Admin should change or select the page through pagination which is given at the right bottom of the page.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+</cases>
+</node>
+</suites>
+<cases>
+<node>
+<id>
+4
+</id>
+<title>
+To verify Admin should see cards of customer list and banner list on dashboard.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer portal URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+</action>
+<expected_result>
+Admin should see customer list and banner list cards on dashboard home screen.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+</cases>
+</node>
+<node>
+<id>
+5
+</id>
+<title>
+Roles
+</title>
+<description>
+
+</description>
+<preconditions>
+
+</preconditions>
+<suites>
+<node>
+<id>
+6
+</id>
+<title>
+Role List
+</title>
+<description>
+
+</description>
+<preconditions>
+
+</preconditions>
+<suites>
+</suites>
+<cases>
+<node>
+<id>
+31
+</id>
+<title>
+To verify admin click on the role list, it should redirect to the role list page.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the roles.
+
+5. Click on the roles list.
+</action>
+<expected_result>
+Admin should redirect to the role list page.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+32
+</id>
+<title>
+To verify admin should see all role list which can create on add role page .
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the roles.
+
+5. Click on the roles list.
+</action>
+<expected_result>
+A list of all roles should be showing to admin/sub-admin which has been assigned to the sub-admins.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+33
+</id>
+<title>
+To verify admin should see the permissions which is given in set privileges.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the roles.
+
+5. Click on the roles list.
+
+6. Click on the set privileges options
+</action>
+<expected_result>
+Admin should see all permissions which are given in privileges.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+34
+</id>
+<title>
+To verify admin should assign the permission through privileges.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the roles.
+
+5. Click on the roles list.
+
+6. Click on the set privileges options.
+</action>
+<expected_result>
+Admin should assign permissions to sub-admin successfully.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+35
+</id>
+<title>
+To verify click on the update button, it should update the permissions.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the roles.
+
+5. Click on the roles list.
+
+6. Click on the update button.
+</action>
+<expected_result>
+Admin should update the permissions which are assigned to the sub-admin.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+36
+</id>
+<title>
+To verify click on the cancel button, it cannot update the permissions and redirect to the role list page.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the roles.
+
+5. Click on the roles list.
+
+6. Click on the cancel button.
+</action>
+<expected_result>
+Admin click on the cancel button, it cannot update the permissions and redirect to the role list page.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+37
+</id>
+<title>
+To verify admin should see the details which is selected to the privileges.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the roles.
+
+5. Click on the roles list.
+
+6. Click on the Details button.
+</action>
+<expected_result>
+Admin should see all the details which are selected to the privileges &amp; assign to the sub-admins.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+38
+</id>
+<title>
+To verify admin should edit/assign the roles which is showing on Dashboard Cards Permissions.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the roles.
+
+5. Click on the roles list.
+
+6. Click on the edit button.
+</action>
+<expected_result>
+Admin should edit/assign the roles which are showing on Dashboard Cards Permissions.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+39
+</id>
+<title>
+To verify admin should see entries per page as the selected option.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the role list.
+
+5. Select the option.
+</action>
+<expected_result>
+Admin should see the no of entries per page as per selection.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+40
+</id>
+<title>
+To verify admin should search the user in the given search field.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the role list.
+
+5. Enter the data in the search field.
+</action>
+<expected_result>
+Admin should search the user with Id, Name, Total users, Total dashboard card, and date.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+41
+</id>
+<title>
+To verify admin should change the page through pagination.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the role list.
+
+5. Select the page#.
+</action>
+<expected_result>
+Admin should change or select the page through pagination which is given at the right bottom of the page.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+</cases>
+</node>
+<node>
+<id>
+7
+</id>
+<title>
+Add Role
+</title>
+<description>
+
+</description>
+<preconditions>
+
+</preconditions>
+<suites>
+</suites>
+<cases>
+<node>
+<id>
+42
+</id>
+<title>
+To verify admin click on add role page, it should redirect to the add role page.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the roles.
+
+5. Click on the add roles.
+</action>
+<expected_result>
+Admin should redirect to the add role page.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+43
+</id>
+<title>
+To verify admin should create roles which are showing on this page.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the roles.
+
+5. Click on the add roles.
+</action>
+<expected_result>
+Admin should create multiple roles for sub-admins.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+44
+</id>
+<title>
+To verify click on the save button, it should add a role on role list.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the roles.
+
+5. Click on the add roles.
+</action>
+<expected_result>
+Role should be added to the role list after clicking on the save button.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+45
+</id>
+<title>
+To verify click on the cancel button, it should redirect to the role list page.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the roles.
+
+5. Click on the add roles.
+</action>
+<expected_result>
+Admin should redirect to the role list page by clicking on the cancel button.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+</cases>
+</node>
+</suites>
+<cases>
+<node>
+<id>
+30
+</id>
+<title>
+To verify Role list &amp; Add role is showing to the admin on clicking on Roles.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the Roles.
+</action>
+<expected_result>
+Admin should see Role list &amp; Add role options.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+</cases>
+</node>
+<node>
+<id>
+8
+</id>
+<title>
+Sub Admins
+</title>
+<description>
+
+</description>
+<preconditions>
+
+</preconditions>
+<suites>
+<node>
+<id>
+9
+</id>
+<title>
+Sub Admins List
+</title>
+<description>
+
+</description>
+<preconditions>
+
+</preconditions>
+<suites>
+</suites>
+<cases>
+<node>
+<id>
+47
+</id>
+<title>
+To verify click on sub-admin list button, admin should redirect to the sub-admins list page.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the sub-admins.
+</action>
+<expected_result>
+Admin should redirect to the sub-admins list page.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+48
+</id>
+<title>
+To verify admin should see all sub-admins list which is showing on the sub-admins page.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the sub-admin list.
+</action>
+<expected_result>
+A list of all sub-admins should be showing which has been created through the admin panel.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+49
+</id>
+<title>
+To verify admin should active/inactive the sub-admins.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the sub-admins list.
+
+5. Click on the active status.
+</action>
+<expected_result>
+Admin should be active/inactive for all sub-admins which is given in the list.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+50
+</id>
+<title>
+To verify admin should see the details of the sub-admins.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the sub-admins.
+
+5. Click on the sub-admins list.
+
+6. Click on the Details button.
+</action>
+<expected_result>
+Admin should see all the details (full name, phone, role, status, address, email, department) of the sub-admin.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+51
+</id>
+<title>
+To verify click on the back button, it should redirect to the list page.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the sub-admins.
+
+5. Click on the sub-admins list.
+
+6. Click on the Details button.
+
+7. Click on the back button.
+</action>
+<expected_result>
+Admin should redirect to the list page by clicking on the back button.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+52
+</id>
+<title>
+To verify click on edit button, it should redirect to the edit profile page.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the sub-admins.
+
+5. Click on the sub-admins list.
+
+6. Click on the edit button.
+</action>
+<expected_result>
+Admin should redirect to the edit profile page by clicking on edit button.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+53
+</id>
+<title>
+To verify admin should edit Full name, Phone#, Address, Role type, Password &amp; Profile picture.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the sub-admins.
+
+5. Click on the sub-admins list.
+
+6. Click on the edit button.
+</action>
+<expected_result>
+Admin should update the Full name, Email, Phone#, Address, Role type, Department, Password, and Profile picture of the sub-admins.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+54
+</id>
+<title>
+To verify click on the save button, it should update the sub-admin profiles &amp; redirects to the sub-admin list page.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the sub-admins.
+
+5. Click on the sub-admins list.
+
+6. Click on the edit button.
+</action>
+<expected_result>
+Profile should be updated by clicking on the save button &amp; redirect to the sub-admin list page.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+55
+</id>
+<title>
+To verify click on the cancel button, it cannot update the profile and redirects to the sub-admin list page.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the sub-admins.
+
+5. Click on the sub-admins list.
+
+6. Click on the edit button.
+</action>
+<expected_result>
+Profile cannot update by clicking on the cancel button and it should redirect to the sub-admin list page.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+56
+</id>
+<title>
+To verify admin should delete sub-admins &amp; disappear on the sub-admin list page.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the sub-admins.
+
+5. Click on the sub-admins list.
+
+6. Click on the delete button.
+</action>
+<expected_result>
+Admin should delete the sub-admins which are given in the action column &amp; disappears on the sub-admin list page.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+57
+</id>
+<title>
+To verify admin should see entries per page as the selected option.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the sub-admins.
+
+5. Click on the sub-admins list.
+
+6. Select the option.
+</action>
+<expected_result>
+Admin should see the no of entries per page as per selection.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+58
+</id>
+<title>
+To verify admin should search the sub-admin in the given search field.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the sub-admins.
+
+5. Click on the sub-admins list.
+
+6. Enter the data in the search field.
+</action>
+<expected_result>
+Admin should search the sub-admin with Id, Name, Email, &amp; Phone#.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+59
+</id>
+<title>
+To verify admin should change the page through pagination.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the role list.
+
+5. Select the page#.
+</action>
+<expected_result>
+Admin should change or select the page through pagination which is given at the right bottom of the page.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+</cases>
+</node>
+<node>
+<id>
+10
+</id>
+<title>
+Add Sub Admin
+</title>
+<description>
+
+</description>
+<preconditions>
+
+</preconditions>
+<suites>
+</suites>
+<cases>
+<node>
+<id>
+60
+</id>
+<title>
+To verify admin click on the add sub-admin button, it should redirect to the add sub-admin page.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the sub-admins.
+
+5. Click on the add sub-admin.
+</action>
+<expected_result>
+Admin should redirect to the sub-admin page.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+61
+</id>
+<title>
+To verify, admin should create sub-admins through add sub-admins option.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the sub-admins.
+
+5. Click on the add sub-admin.
+</action>
+<expected_result>
+Admin should create multiple sub-admins on entering the Name, Email, Phone#, Address, Role type, Department, Password, Confirm Password, and Upload picture.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+62
+</id>
+<title>
+To verify sub-admin receive the email for reset password.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the sub-admins.
+
+5. Click on the add sub-admin.
+
+6. Create an account for sub-admin
+</action>
+<expected_result>
+Sub-admin receives the email to reset the password after the account created.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+63
+</id>
+<title>
+To verify admin click to the save button, it creates the sub-admin account.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the sub-admins.
+
+5. Click on the add sub-admin.
+
+6. Click on the Save button.
+</action>
+<expected_result>
+Admin should create the sub-admin account by clicking the save button.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+64
+</id>
+<title>
+To verify admin click to the cancel button, it redirects to the sub-admin list page.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the sub-admins.
+
+5. Click on the add sub-admin.
+
+6. Click on the cancel button
+</action>
+<expected_result>
+Admin should redirect the sub-admin list page by clicking the cancel button.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+</cases>
+</node>
+</suites>
+<cases>
+<node>
+<id>
+46
+</id>
+<title>
+To verify Sub Admins List &amp; Add Sub Admin is showing to the admin on sub-admin section.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the sub-admins.
+</action>
+<expected_result>
+Admin should see Sub Admins List &amp; Add Sub Admin options.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+</cases>
+</node>
+<node>
+<id>
+11
+</id>
+<title>
+Customer
+</title>
+<description>
+
+</description>
+<preconditions>
+
+</preconditions>
+<suites>
+<node>
+<id>
+12
+</id>
+<title>
+Customer List
+</title>
+<description>
+
+</description>
+<preconditions>
+
+</preconditions>
+<suites>
+</suites>
+<cases>
+<node>
+<id>
+66
+</id>
+<title>
+To verify admin click on the customer list button, it should redirect to the customer list page.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the customer.
+
+5.  Click on the customer list.
+</action>
+<expected_result>
+Admin should redirect to the customer list page after clicking on the customer list option.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+67
+</id>
+<title>
+To verify admin should see all customer which are showing on the customer list.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the customer.
+
+5. Click on the customer list
+</action>
+<expected_result>
+A list of all customers should be showing who has been sign-up through the customer app.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+68
+</id>
+<title>
+To verify admin should active/blocked the customer.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the customer.
+
+5. Click on the customer list.
+
+6. Click on the active status.
+</action>
+<expected_result>
+Admin should be active/inactive for all customers which are given in the list.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+69
+</id>
+<title>
+To verify admin click on edit button, it should redirect to the customer edit info page.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the customer.
+
+5. Click on the customer list.
+
+6. Click on the edit button.
+</action>
+<expected_result>
+Admin should redirect to the edit page.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+70
+</id>
+<title>
+To verify admin should edit all customer profiles.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the customer.
+
+5. Click on the customer list.
+
+6. Click on the edit button.
+</action>
+<expected_result>
+Admin should edit all customer profiles which is should on the customer list page.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+71
+</id>
+<title>
+To verify admin should edit Full name, Password, &amp; Profile picture.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the customer.
+
+5. Click on the customer list.
+
+6. Click on the edit button.
+
+7. Click the text fields one by one.
+</action>
+<expected_result>
+Admin should edit the Full name, Password &amp; Profile picture.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+72
+</id>
+<title>
+To verify click on the save button, it should update the customer info &amp; redirect to the customer list page.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the customer.
+
+5. Click on the customer list.
+
+6. Click on the edit button.
+
+7. Update the info.
+
+8. Click on the Save button.
+</action>
+<expected_result>
+Customer info should update by clicking on the save button &amp; redirect to the customer list page.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+73
+</id>
+<title>
+To verify click on the cancel button, it cannot update the customer info and redirect to the customer list page.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the customer.
+
+5. Click on the customer list.
+
+6. Click on the edit button.
+
+7. Click on the cancel button.
+</action>
+<expected_result>
+Customer info should not update on clicking on the cancel button &amp; redirect to the customer list page.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+74
+</id>
+<title>
+To verify click on the delete button, it should delete the customer and disappear on the customer list page.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the customer.
+
+5. Click on the customer list.
+
+6. Click on the delete button.
+</action>
+<expected_result>
+Admin should delete all customers on the customer list page.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+75
+</id>
+<title>
+To verify admin should see entries per page to the selected option.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the customer.
+
+5. Click on the customer list.
+
+6. Select the option.
+</action>
+<expected_result>
+Admin should see the no of entries per page as per selection.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+76
+</id>
+<title>
+To verify admin should search the data with ID, Name, Email, Phone# in the given search field.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the customer.
+
+5. Click on the customer list
+
+6. Enter the data in the search field.
+</action>
+<expected_result>
+Admin should search the data with ID, Name, Email, Phone# in the given search field.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+77
+</id>
+<title>
+To verify admin should change the page through pagination.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the customer.
+
+5. Click on the customer list.
+
+6. Select the page#.
+</action>
+<expected_result>
+Admin should change or select the page through pagination which is given at the right bottom of the page.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+</cases>
+</node>
+</suites>
+<cases>
+<node>
+<id>
+65
+</id>
+<title>
+To verify, Customer List is showing to the admin on customer section.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the customer.
+</action>
+<expected_result>
+Admin should see the Customer List option.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+</cases>
+</node>
+<node>
+<id>
+13
+</id>
+<title>
+Customer Support
+</title>
+<description>
+
+</description>
+<preconditions>
+
+</preconditions>
+<suites>
+<node>
+<id>
+14
+</id>
+<title>
+Order Confirmation List
+</title>
+<description>
+
+</description>
+<preconditions>
+
+</preconditions>
+<suites>
+</suites>
+<cases>
+</cases>
+</node>
+</suites>
+<cases>
+<node>
+<id>
+78
+</id>
+<title>
+To verify Order Confirmation List is showing to the admin on Customer Support section.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on customer support.
+
+5. Click on the order confirmation list.
+</action>
+<expected_result>
+Order Confirmation List is showing to the admin on the Customer Support section.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+</cases>
+</node>
+<node>
+<id>
+15
+</id>
+<title>
+Banner
+</title>
+<description>
+
+</description>
+<preconditions>
+
+</preconditions>
+<suites>
+<node>
+<id>
+16
+</id>
+<title>
+Banner List
+</title>
+<description>
+
+</description>
+<preconditions>
+
+</preconditions>
+<suites>
+</suites>
+<cases>
+<node>
+<id>
+80
+</id>
+<title>
+To verify admin click on the banner list button, it should redirect to the banner list page.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the banner.
+
+5. Click on the banner list.
+</action>
+<expected_result>
+Admin should redirect to the banner list page after clicking on the banner list option.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+81
+</id>
+<title>
+To verify admin should see all banners which are showing on the banner list.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the banner.
+
+5. Click on the banner list.
+</action>
+<expected_result>
+A list of all banners should be showing who has been created through the customer portal.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+82
+</id>
+<title>
+To verify admin click on edit button, it should redirect to the banner edit page.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the banner.
+
+5. Click on the banner list.
+
+6. Click on the edit button.
+</action>
+<expected_result>
+Admin should redirect to the edit page.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+83
+</id>
+<title>
+To verify admin should edit all banners.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the banner.
+
+5. Click on the banner list.
+
+6. Click on the edit button.
+</action>
+<expected_result>
+Admin should edit all banners which should on the banner list page.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+84
+</id>
+<title>
+To verify admin should edit Title, Sub Title, Banner Details &amp; Banner picture.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the banner.
+
+5. Click on the banner list.
+
+6. Click on the edit button.
+
+7. Click the text fields one by one &amp; update.
+</action>
+<expected_result>
+Admin should edit Title, Sub Title, Banner Details &amp; Banner picture.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+85
+</id>
+<title>
+To verify click on the save button, it should update the banner details &amp; redirect to the banner list page.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the banner.
+
+5. Click on the banner list.
+
+6. Click on the edit button.
+
+7. Update the info.
+
+8. Click on the Save button.
+</action>
+<expected_result>
+Banner details should update by clicking on the save button &amp; redirect to the banner list page.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+86
+</id>
+<title>
+To verify click on the cancel button, it cannot update the banner details and redirect to the banner list page.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the banner.
+
+5. Click on the banner list.
+
+6. Click on the edit button.
+
+7. Click on the cancel button.
+</action>
+<expected_result>
+Banner Details should not update on clicking on the cancel button &amp; redirect to the banner list page.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+87
+</id>
+<title>
+To verify click on the delete button, it should delete the banner and disappear on the banner list page.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the banner.
+
+5. Click on the banner list.
+
+6. Click on the delete button.
+</action>
+<expected_result>
+Admin should delete all banners on the customer list page &amp; it can be disappear.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+88
+</id>
+<title>
+To verify admin should see entries per page to the selected option.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the banner.
+
+5. Click on the banner list.
+
+6. Select the option.
+</action>
+<expected_result>
+Admin should see the no of entries per page as per selection.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+89
+</id>
+<title>
+To verify admin should search the data with ID, Title, Sub Title &amp; Details in the given search field.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the banner.
+
+5. Click on the banner list.
+
+6. Enter the data in the search field.
+</action>
+<expected_result>
+Admin should search the data with ID, Title, Sub Title &amp; Details in the given search field.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+90
+</id>
+<title>
+To verify admin should change the page through pagination.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the banner.
+
+5. Click on the banner list.
+
+6. Select the page#.
+</action>
+<expected_result>
+Admin should change or select the page through pagination which is given at the right bottom of the page.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+</cases>
+</node>
+<node>
+<id>
+17
+</id>
+<title>
+Add Banner
+</title>
+<description>
+
+</description>
+<preconditions>
+
+</preconditions>
+<suites>
+</suites>
+<cases>
+<node>
+<id>
+91
+</id>
+<title>
+To verify admin click on the add banner button, it should redirect to the add banner page.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the banner.
+
+5. Click on the add banner.
+
+6. Select the page#.
+</action>
+<expected_result>
+Admin should redirect to the add banner page.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+92
+</id>
+<title>
+To verify admin should see Title, Sub Title, Banner Detail &amp; Upload picture fields on add banner page.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the banner.
+
+5. Click on the add banner.
+</action>
+<expected_result>
+Admin should see Title, Sub Title, Banner Detail &amp; Upload picture fields on add banner page.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+93
+</id>
+<title>
+To verify admin should enter the data and upload the picture in the given fields.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the banner.
+
+5. Click on the add banner.
+</action>
+<expected_result>
+Admin should enter the data and upload the picture in the given fields.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+94
+</id>
+<title>
+To verify admin should click on the save button, it should create the banner &amp; redirect to the banner list page.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the banner.
+
+5. Click on the add banner.
+
+6. Enter the data in the given fields.
+
+7. Click on the Save button.
+</action>
+<expected_result>
+Admin should click on the save button, it should create the banner &amp; redirect to the banner list page.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+95
+</id>
+<title>
+To verify admin should click on the cancel button, it cannot create the banner and redirect to the banner list page.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the banner.
+
+5. Click on the add banner.
+
+6. Enter data in the given fields.
+
+7. Click on the cancel button.
+</action>
+<expected_result>
+Admin should click on the cancel button, it cannot create the banner and redirect to the banner list page.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+</cases>
+</node>
+</suites>
+<cases>
+<node>
+<id>
+79
+</id>
+<title>
+To verify Banner List &amp; Add Banner is showing to the admin on banner section.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the banner.
+</action>
+<expected_result>
+Banner List &amp; Add Banner is showing to the admin on the banner section.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+</cases>
+</node>
+<node>
+<id>
+18
+</id>
+<title>
+Brand
+</title>
+<description>
+
+</description>
+<preconditions>
+
+</preconditions>
+<suites>
+<node>
+<id>
+19
+</id>
+<title>
+Brand List
+</title>
+<description>
+
+</description>
+<preconditions>
+
+</preconditions>
+<suites>
+</suites>
+<cases>
+<node>
+<id>
+97
+</id>
+<title>
+To verify admin click on the Brand list button, it should redirect to the brand list page.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the brand.
+
+5. Click on the brand list.
+</action>
+<expected_result>
+Admin should redirect to the brand list page after clicking on the brand list option.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+98
+</id>
+<title>
+To verify admin should see all brands which are showing on the brand list.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the brand.
+
+5. Click on the brand list.
+</action>
+<expected_result>
+A list of all brands should be showing who has been created through the customer portal.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+99
+</id>
+<title>
+To verify admin click on edit button, it should redirect to the brand edit page.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the brand.
+
+5. Click on the brand list.
+
+6. Click on the edit button.
+</action>
+<expected_result>
+Admin should redirect to the edit page.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+100
+</id>
+<title>
+To verify admin should edit all brands.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the brand.
+
+5. Click on the brand list.
+
+6. Click on the edit button.
+</action>
+<expected_result>
+Admin should edit all brands which should on the banner list page.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+101
+</id>
+<title>
+To verify admin should edit Title &amp; Brand image.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the brand.
+
+5. Click on the brand list.
+
+6. Click on the edit button.
+
+7. Click the text fields one by one &amp; update.
+</action>
+<expected_result>
+Admin should edit Title &amp; Brand image.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+102
+</id>
+<title>
+To verify click on the save button, it should update the brand details &amp; redirect to the brand list page.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the brand.
+
+5. Click on the brand list.
+
+6. Click on the edit button.
+
+7. Update the info.
+
+8. Click on the Save button.
+</action>
+<expected_result>
+Brand details should update by clicking on the save button &amp; redirect to the brand list page.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+103
+</id>
+<title>
+To verify click on the cancel button, it cannot update the brand details and redirect to the brand list page.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the brand.
+
+5. Click on the brand list.
+
+6. Click on the edit button.
+
+7. Click on the cancel button.
+</action>
+<expected_result>
+Brand Details should not update on clicking on the cancel button &amp; redirect to the banner list page.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+104
+</id>
+<title>
+To verify admin should see entries per page to the selected option.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the brand.
+
+5. Click on the brand list.
+
+6. Select the option.
+</action>
+<expected_result>
+Admin should see the no of entries per page as per selection.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+105
+</id>
+<title>
+To verify admin should search the data with ID, Vendor ID &amp; Title in the given search field.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the brand.
+
+5. Click on the brand list.
+
+6. Enter the data in the search field.
+</action>
+<expected_result>
+Admin should search the data with ID, Vendor ID &amp; Title in the given search field.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+106
+</id>
+<title>
+To verify admin should change the page through pagination.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the brand.
+
+5. Click on the brand list.
+
+6. Select the page#.
+</action>
+<expected_result>
+Admin should change or select the page through pagination which is given at the right bottom of the page.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+</cases>
+</node>
+<node>
+<id>
+20
+</id>
+<title>
+Add Brand
+</title>
+<description>
+
+</description>
+<preconditions>
+
+</preconditions>
+<suites>
+</suites>
+<cases>
+<node>
+<id>
+107
+</id>
+<title>
+To verify admin click on the add brand button, it should redirect to the add brand page.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the brand.
+
+5. Click on the add brand.
+
+6. Select the page#.
+</action>
+<expected_result>
+Admin should redirect to the add brand page.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+108
+</id>
+<title>
+To verify admin should see Title, Vendor ID &amp; Upload brand image option on add brand page.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the brand.
+
+5. Click on the add brand.
+</action>
+<expected_result>
+Admin should see Title, Vendor ID &amp; Upload brand image option on add brand page.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+109
+</id>
+<title>
+To verify admin should enter the data and upload the picture in the given fields.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the brand.
+
+5. Click on the add brand.
+</action>
+<expected_result>
+Admin should enter the data and upload the picture in the given fields.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+110
+</id>
+<title>
+To verify admin should click on the save button, it should create the brand &amp; redirect to the brand list page.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the brand.
+
+5. Click on the add brand.
+
+6. Enter the data in the given fields.
+
+7. Click on the Save button.
+</action>
+<expected_result>
+Admin should click on the save button, it should create the brand &amp; redirect to the brand list page.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+111
+</id>
+<title>
+To verify admin should click on the cancel button, it cannot create the brand and redirect to the brand list page.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the brand.
+
+5. Click on the add brand.
+
+6. Enter data in the given fields.
+
+7. Click on the cancel button.
+</action>
+<expected_result>
+Admin should click on the cancel button, it cannot create the brand and redirect to the brand list page.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+</cases>
+</node>
+</suites>
+<cases>
+<node>
+<id>
+96
+</id>
+<title>
+To verify Brand List &amp; Add Brand is showing to the admin on brand section.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the brand.
+</action>
+<expected_result>
+Brand List &amp; Add Brand is showing to the admin on brand section.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+</cases>
+</node>
+<node>
+<id>
+21
+</id>
+<title>
+CMS
+</title>
+<description>
+
+</description>
+<preconditions>
+
+</preconditions>
+<suites>
+<node>
+<id>
+22
+</id>
+<title>
+CMS List
+</title>
+<description>
+
+</description>
+<preconditions>
+
+</preconditions>
+<suites>
+</suites>
+<cases>
+<node>
+<id>
+113
+</id>
+<title>
+To verify admin click on the CMS list button, it should redirect to the CMS list page.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the cms.
+
+5. Click on the cms list.
+</action>
+<expected_result>
+Admin should redirect to the cms list page after clicking on the cms list option.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+114
+</id>
+<title>
+To verify admin should see all CMS list which are showing on the CMS list.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the cms.
+
+5. Click on the cms list
+</action>
+<expected_result>
+A cms list should be showing who has been created.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+115
+</id>
+<title>
+To verify admin click on edit button, it should redirect to the CMS edit page.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the cms.
+
+5. Click on the cms list.
+
+6. Click on the edit button.
+</action>
+<expected_result>
+Admin should redirect to the edit page.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+116
+</id>
+<title>
+To verify admin should edit all CMS.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the cms.
+
+5. Click on the cms list.
+
+6. Click on the edit button.
+</action>
+<expected_result>
+Admin should edit all cms which should on the cms list page.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+117
+</id>
+<title>
+To verify admin should edit Page Title &amp; Content.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the cms.
+
+5. Click on the cms list.
+
+6. Click on the edit button.
+
+7. Click the text fields one by one.
+</action>
+<expected_result>
+Admin should edit Page Title &amp; Content.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+118
+</id>
+<title>
+To verify click on the save button, it should update the CMS &amp; redirect to the CMS list page.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the cms.
+
+5. Click on the cms list.
+
+6. Click on the edit button.
+
+7. Update the info.
+
+8. Click on the Save button.
+</action>
+<expected_result>
+CMS should update by clicking on the save button &amp; redirect to the cms list page.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+119
+</id>
+<title>
+To verify click on the cancel button, it cannot update the CMS and redirect to the CMS list page.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the cms.
+
+5. Click on the cms list.
+
+6. Click on the edit button.
+
+7. Click on the cancel button.
+</action>
+<expected_result>
+CMS should not update on clicking on the cancel button &amp; redirect to the cms list page.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+120
+</id>
+<title>
+To verify admin should see entries per page to the selected option.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the cms.
+
+5. Click on the cms list.
+
+6. Select the option.
+</action>
+<expected_result>
+Admin should see the no of entries per page as per selection.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+121
+</id>
+<title>
+To verify admin should search the data with ID, Page Title, Slug &amp; Content in the given search field.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the cms.
+
+5. Click on the cms list
+
+6. Enter the data in the search field.
+</action>
+<expected_result>
+Admin should search the data with ID, Page Title, Slug &amp; Content in the given search field.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+122
+</id>
+<title>
+To verify admin should change the page through pagination.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the cms.
+
+5. Click on the cms list.
+
+6. Select the page#.
+</action>
+<expected_result>
+Admin should change or select the page through pagination which is given at the right bottom of the page.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+</cases>
+</node>
+</suites>
+<cases>
+<node>
+<id>
+112
+</id>
+<title>
+To verify CMS List is showing to the admin on CMS section.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the CMS.
+</action>
+<expected_result>
+Admin should see the CMS List option.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+</cases>
+</node>
+<node>
+<id>
+23
+</id>
+<title>
+Push Notification
+</title>
+<description>
+
+</description>
+<preconditions>
+
+</preconditions>
+<suites>
+</suites>
+<cases>
+<node>
+<id>
+123
+</id>
+<title>
+To verify admin click on the push notification button, it should redirect to the push notification page.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the push notification.
+</action>
+<expected_result>
+Admin should redirect to the push notification page after clicking on the push notification option.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+124
+</id>
+<title>
+To verify admin should see Subject &amp; Message fields on push notification page.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the push notification.
+</action>
+<expected_result>
+Admin should see Subject &amp; Message fields on the push notification page.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+125
+</id>
+<title>
+To verify admin should enter the data in the given fields.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the push notification.
+</action>
+<expected_result>
+Admin should enter the data in the given fields.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+126
+</id>
+<title>
+To verify admin should click on the save button, it should send the notification to the app of all customers.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the push notification.
+
+5. Enter the data in the given fields.
+
+6. Click on the Save button.
+
+7. Notification sent to the app of all customers.
+</action>
+<expected_result>
+1. Admin should click on the save button, it should send the notification to the app of all customers.
+
+2. Customers should receive notifications that are sent through the customer panel.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+127
+</id>
+<title>
+To verify admin should click on the cancel button, it cannot send the notification to the app and redirect to the dashboard page.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the push notification.
+
+5. Enter data in the given fields.
+
+6. Click on the cancel button.
+</action>
+<expected_result>
+Admin should click on the cancel button, it cannot send the notification to the app and redirect to the dashboard page.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+</cases>
+</node>
+<node>
+<id>
+24
+</id>
+<title>
+Contact Us
+</title>
+<description>
+
+</description>
+<preconditions>
+
+</preconditions>
+<suites>
+<node>
+<id>
+25
+</id>
+<title>
+Contact List
+</title>
+<description>
+
+</description>
+<preconditions>
+
+</preconditions>
+<suites>
+</suites>
+<cases>
+<node>
+<id>
+129
+</id>
+<title>
+To verify admin click on the contact list button, it should redirect to the contact list page.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the contact us.
+
+5. Click on the contact list.
+</action>
+<expected_result>
+Admin should redirect to the contact list page after clicking on the contact list option.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+130
+</id>
+<title>
+To verify admin should see all messages with customer detail which are showing on the contact list.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the contact us.
+
+5. Click on the contact list.
+</action>
+<expected_result>
+Admin should see all messages with customer detail which are showing on the contact list.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+131
+</id>
+<title>
+To verify admin click on details button, it should redirect to the details page.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the contact us.
+
+5. Click on the contact list.
+
+6. Click on the Details button.
+</action>
+<expected_result>
+Admin click on the details button, it should redirect to the details page.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+132
+</id>
+<title>
+To verify admin should all message details of the customer like Name, Phone#, Message, Email &amp; Title.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the contact us.
+
+5. Click on the contact list.
+
+6. Click on the Details button.
+</action>
+<expected_result>
+Admin should all message details of the customer like Name, Phone#, Message, Email &amp; Title.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+133
+</id>
+<title>
+To verify admin click on the back button, it should redirect to the contact list page.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the contact us.
+
+5. Click on the contact list.
+
+6. Click on the Details button.
+
+7. Click on the Back button.
+</action>
+<expected_result>
+Admin click on the back button, it should redirect to the contact list page.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+134
+</id>
+<title>
+To verify admin should see entries per page to the selected option.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the contact us.
+
+5. Click on the contact list.
+
+6. Select the option.
+</action>
+<expected_result>
+Admin should see the no of entries per page as per selection.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+135
+</id>
+<title>
+To verify admin should search the data with ID, Name, Email, Phone, Title &amp; Message in the given search field.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the contact us.
+
+5. Click on the contact list.
+
+6. Enter the data in the search field.
+</action>
+<expected_result>
+Admin should search the data with ID, Name, Email, Phone, Title &amp; Message in the given search field.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+136
+</id>
+<title>
+To verify admin should change the page through pagination.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the contact us.
+
+5. Click on the contact list.
+
+6. Select the page#.
+</action>
+<expected_result>
+Admin should change or select the page through pagination which is given at the right bottom of the page.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+</cases>
+</node>
+</suites>
+<cases>
+<node>
+<id>
+128
+</id>
+<title>
+To verify contact list is showing to the admin on contact section.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the contact us.
+</action>
+<expected_result>
+Admin should see the contact list option.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+</cases>
+</node>
+<node>
+<id>
+26
+</id>
+<title>
+Change Password
+</title>
+<description>
+
+</description>
+<preconditions>
+
+</preconditions>
+<suites>
+</suites>
+<cases>
+<node>
+<id>
+137
+</id>
+<title>
+To verify admin click on change password option which is given in the side navigation &amp; drop-down then navigate to change password screen.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the change password.
+</action>
+<expected_result>
+Admin should navigate to the change password screen.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+138
+</id>
+<title>
+To verify old password should required to change the password.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the change password.
+</action>
+<expected_result>
+Old password should be required for update password.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+139
+</id>
+<title>
+To verify admin enter the old password, new password which is not similar or similar to old and confirm password and click on submit button should change the password .
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the change password.
+</action>
+<expected_result>
+Admin should change the password successfully.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+140
+</id>
+<title>
+To verify admin click to the save button, it saves the new password successfully.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the change password
+
+5. Click on the Save button.
+</action>
+<expected_result>
+Admin should save the new password by clicking the save button.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+141
+</id>
+<title>
+To verify admin click to the cancel button, it redirects to the dashboard page and cannot save the password.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the change password.
+
+5. Click on the cancel button.
+</action>
+<expected_result>
+Admin should redirect the dashboard page by clicking the cancel button and cannot save the password.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+</cases>
+</node>
+<node>
+<id>
+27
+</id>
+<title>
+Edit Profile
+</title>
+<description>
+
+</description>
+<preconditions>
+
+</preconditions>
+<suites>
+</suites>
+<cases>
+<node>
+<id>
+142
+</id>
+<title>
+To verify, admin should see a edit profile option on right top of the page &amp; then navigate to edit profile screen.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Hower the arrow which is given in right top.
+
+5. Click on the edit profile.
+</action>
+<expected_result>
+Edit profile screen should be open after clicking on the edit profile button.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+143
+</id>
+<title>
+To verify admin should edit the Full name, Phone#,  Password and Profile picture. .
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Hower the arrow which is given in right top.
+
+5. Click on the edit profile
+</action>
+<expected_result>
+Admin should edit the Full name, Phone#,  Password, and Profile picture.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+144
+</id>
+<title>
+To verify admin click on save button then admin detail should update.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Hower the arrow which is given in right top.
+
+5. Click on the edit profile.
+</action>
+<expected_result>
+Admin details should be changed after clicking on the save button.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+145
+</id>
+<title>
+To verify admin click to the cancel button, it redirects to the dashboard page and cannot update any field.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Hower the arrow which is given in right top.
+
+5. Click on the edit profile
+</action>
+<expected_result>
+Admin should redirect the dashboard page by clicking the cancel button and cannot update any field.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+<node>
+<id>
+146
+</id>
+<title>
+To verify admin click on the profile picture it shows in full screen.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Hower the arrow which is given in right top.
+
+5. Click on the edit profile.
+</action>
+<expected_result>
+Admin should see the image on the full screen.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+</cases>
+</node>
+<node>
+<id>
+28
+</id>
+<title>
+Logout
+</title>
+<description>
+
+</description>
+<preconditions>
+
+</preconditions>
+<suites>
+</suites>
+<cases>
+<node>
+<id>
+147
+</id>
+<title>
+To verify admin click on the logout button, admin should be logout and redirects to the login page.
+</title>
+<description>
+
+</description>
+<preconditions>
+1. Internet connection.
+
+2. Supported browser.
+
+3. Enter the customer URL &amp; login with valid credentials.
+</preconditions>
+<postconditions>
+
+</postconditions>
+<priority>
+undefined
+</priority>
+<severity>
+undefined
+</severity>
+<behavior>
+undefined
+</behavior>
+<type>
+other
+</type>
+<layer>
+unknown
+</layer>
+<is_flaky>
+no
+</is_flaky>
+<automation>
+is-not-automated
+</automation>
+<status>
+actual
+</status>
+<milestone>
+
+</milestone>
+<custom_fields>
+</custom_fields>
+<steps>
+<node>
+<position>
+1
+</position>
+<action>
+1. Enter the portal URL on the browser search field and enter.
+
+2. Enter the valid credentials.
+
+3. Click on the submit button.
+
+4. Click on the logout button.
+</action>
+<expected_result>
+Admin should be logout and redirects to the login page after clicking on the logout button.
+</expected_result>
+<data>
+
+</data>
+</node>
+</steps>
+</node>
+</cases>
+</node>
+</suites>
+</nodes>

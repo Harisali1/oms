@@ -1,0 +1,169 @@
+// @import '../variables';
+
+// -------------- Training Category [Start]
+.page-trainings{
+    .trainings_list{
+        .training_box{ border: solid 1px $bc1-lighter; margin-bottom: 30px; overflow: hidden; background: $white;
+            @include border-radius($base-border-radius);
+            @include box-shadow(0, 1px, 4px, $bc1-lighter);
+            .row1{ padding: 20px;}
+            .info_wrap{position: relative; padding-right: 100px;
+                @include display(flex);
+                @include align-items(center);
+                .info{padding-left:15px;}
+                h4{margin: 0 0;}
+                .index{
+                    span{display: block; background: $bc1-lightest; color: $basecolor1; font-weight: $bold;
+                        @include border-radius(100%);
+                        @include size(53px);}
+                }
+
+                .status_training{
+                    @include position(absolute, 8px 0 null null);
+                    .btn{@include display(flex); @include align-items(center);}
+                }
+            }
+
+            .row_actions{
+                li{
+                    @include flexWidth(50%);
+                    &:nth-child(even) a{border-left: solid 1px $bc1-lighter !important;}
+                    .btn{@include display(flex); @include align-items(center); @include justify-content(center); font-size: $bfsize;}
+                }
+            }
+
+            // Disabled
+            &.disabled_box{
+                @include opacity(0.7);
+                @include filter(grayscale(0.9));
+            }
+        }
+    }
+}
+// -------------- Training Category [/end]
+
+
+// -------------- Training Items (Video and Documents) - [Start]
+// Common for video and document - [Start]
+.training_items_pg{
+    
+    .start_quiz_btn{
+        span{display: inline-block; margin-right: 20px;}
+        [class*="icofont-"]{margin-left: 8px;}
+    }
+
+    .training_items_list{margin-top: 25px;
+        .item_row{padding: 20px 0; border-top: solid 1px $bc1-lighter;
+            .item_thumb{position: relative; overflow: hidden; border: solid 3px $white; background: no-repeat; background-size: cover;
+                @include size(96px, 68px);
+                @include box-shadow-cs(0 0 0 1px transparent);
+                @include border-radius($base-border-radius);
+            }
+            .item_icon{
+                [class*="sprite-"]{}
+            }
+            .item_info{padding-left: 12px; width: 68%;
+                h4{color: $bf-color !important; font-weight: $semibold;}
+                .icofont-clock-time{color: $bc1-light;}
+            }
+            .item_actions{
+                @include flexWidth(130px);
+                .btn{width: 100%; padding: 0.6rem 0;}
+            }
+
+            &.active{
+                .item_thumb{
+                    @include box-shadow-cs(0 0 0 1px $basecolor1);
+                }
+                .item_info{
+                    h4{color: $basecolor1 !important;}
+                }
+            }
+            &.done{
+                .item_info{
+                    h4{color: $bc1-light !important;}
+                }
+            }
+        }
+    }
+
+    .quiz_btn_full{
+        @include position(fixed, null null 0 0); padding: 40px 0; z-index: 100;
+        background-image: linear-gradient(to top, $bc1-light, 50%, transparent);
+        width: 100%;
+    }
+}
+// Common for video and document - [/end]
+.page-training-videos{}
+// -------------- Training Items (Video and Documents) - [/end]
+
+
+.page-training-quiz{
+    .quiz_progress{
+        @include display(flex);
+        @include align-items(center);
+        .progress_bar{position: relative; background: $bc2-lightest; padding: 5px;
+            @include border-radius(100px);
+            @include flexWidth(calc(100% - 73px));
+        }
+        .progress_status_bar{ height: 22px;
+            @extend %gradient-2;
+            @include border-radius(100px);
+        }
+        .question_numbers{padding-left: 8px;
+            span{display: block; background: $white; border: solid 2px $bc2-lighter; text-align: center; font-size: $bfsize+3; color: $success-color1; font-weight: $bold;
+                @include size(64px); line-height: 64px;
+                @include border-radius(100%);
+            }
+        }
+    }
+    .next-quiz-btn{min-width: 40%;}
+}
+
+.page-training-result{
+    .quiz_result{
+        .result_icon{width: 142px; margin:0 auto 10px;}
+    }
+    
+    .result_progress{
+        .result_progress_bar{position: relative; background: $bc2-lightest; padding: 5px;
+            @include border-radius(100px);
+            @include display(flex);
+            @include align-items(center);
+        }
+        .success_status_bar, .failed_status_bar{height: 32px; line-height: 31px; font-size: $bfsize+1; color: $white; font-weight: $semibold; padding-left: 8px; border: solid 2px $bc2-lightest;
+            @include border-radius(100px); 
+        }
+        .success_status_bar{ 
+            background: $success-color3;
+        }
+        .failed_status_bar{
+            @extend %gradient-3;
+        }
+    }
+
+    .result_numbers_wrap{ margin-top: 15px; padding: 20px; background: $bc1-lightest; @include border-radius($base-border-radius);
+        .result_numbers{@include display(flex); @include align-items(center);
+            li{text-align: center; padding: 0 20px;
+                span{display: block;}
+                .numbers{font-size: $bfsize+10; font-weight: $bold;}
+            }
+        }
+    }
+
+    .quiz_questions_answers{
+        h5{margin: 0;}
+        li{border-bottom: solid 1px $bc1-lighter; padding: 10px 0 10px 35px; position: relative;
+            &:before{content:"\efca"; font:$bfsize+6 $iconfont; color: $basecolor1; @include position(absolute, 14px null null 0);}
+            .question_cnt{padding-right: 8px;}
+            .iscorrect_answer{
+                [class*="icofont-"]{background: rgba($success-color1, 0.15); text-align: center; display: block; color: $success-color1; font-size: $bfsize+12;
+                    @include size(43px); line-height: 43px;
+                    @include border-radius(100%);
+                }
+                .icofont-close-line{background: rgba($red, 0.15); color: $red;}
+            }
+        }
+    }
+    .next-quiz-btn{min-width: 40%;}
+}
